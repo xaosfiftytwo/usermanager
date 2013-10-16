@@ -1,0 +1,2 @@
+#!/bin/bash
+gksu /usr/bin/python3 ../lib/usermanager/usermanager.py $*

@@ -1,0 +1,5 @@
+?package(usermanager):needs="X11"\
+   section="Applications/System/Administration"\
+   title="User manager"\
+   icon="user-identity"\
+   command="usermanager"

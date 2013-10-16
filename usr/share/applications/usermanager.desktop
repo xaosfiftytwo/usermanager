@@ -1,0 +1,20 @@
+[Desktop Entry]
+Categories=System;
+Comment[en_US]=Manage users
+Comment=Manage users
+Exec=usermanager
+GenericName[en_US]=User management
+GenericName=User management
+Icon=user-identity
+MimeType=
+Name[en_US]=User management
+Name=User management
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

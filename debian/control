@@ -1,0 +1,15 @@
+Source: usermanager
+Section: admin
+Priority: optional
+Maintainer: Schoelje <schoelje@solydxk.com>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.2
+
+Package: usermanager
+Architecture: all
+Maintainer: Schoelje <schoelje@solydxk.com>
+Installed-Size: 265
+Depends: python3, python3-gi, passwd, gir1.2-gtk-3.0
+Section: admin
+Priority: optional
+Description: Simple user manager
