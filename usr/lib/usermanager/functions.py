@@ -14,7 +14,6 @@ try:
     #import io
     import fnmatch
     import urllib.request, urllib.error, urllib.parse
-    #import gettext
     from os.path import join, exists, abspath, splitext
     from datetime import datetime
     import calendar
@@ -31,11 +30,6 @@ packageStatus = ['installed', 'notinstalled', 'uninstallable']
 # Init
 ec = ExecCmd()
 cache = apt.Cache()
-
-# i18n: http://docs.python.org/2/library/gettext.html
-#t = gettext.translation("solydxk-conky", "/usr/share/locale")
-#_ = t.lgettext
-
 
 # General ================================================
 
