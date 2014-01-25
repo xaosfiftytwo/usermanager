@@ -1,4 +1,10 @@
-usermanager (0.5.8) debian; urgency=low
+usermanager (0.6.3) debian; urgency=low
+
+  * Resolved bug not being able to save real user names with spaces
+
+ -- Schoelje <schoelje@solydxk.com>  Sat, 30 Nov 2013 18:00:00 +0100
+
+usermanager (0.5.9) debian; urgency=low
 
   * Initial version
 

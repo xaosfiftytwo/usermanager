@@ -290,11 +290,11 @@ class User(object):
             enc_password = "-p %(enc_password)s" % {"enc_password": enc_password}
 
         if home_dir != "":
-            home_dir = "-d %(home_dir)s" % {"home_dir": home_dir}
+            home_dir = "-d '%(home_dir)s'" % {"home_dir": home_dir}
             user = "-m %(user)s" % {"user": user}
 
         if full_name != "":
-            full_name = "-c %(full_name)s" % {"full_name": full_name}
+            full_name = "-c '%(full_name)s'" % {"full_name": full_name}
 
         if expire_date != "":
             expire_date = "-e %(expire_date)s" % {"expire_date": expire_date}

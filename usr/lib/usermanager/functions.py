@@ -58,7 +58,7 @@ def getUserLoginName():
 def repaintGui():
     # Force repaint: ugly, but gui gets repainted so fast that gtk objects don't show it
     while Gtk.events_pending():
-        Gtk.main_iteration(False)
+        Gtk.main_iteration()
 
 
 # Return the type string of a object

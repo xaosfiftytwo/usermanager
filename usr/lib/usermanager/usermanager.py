@@ -401,8 +401,9 @@ class UserManager(object):
         else:
             errMsgs.append(_("You need to provide a name for a new user"))
 
+        shell = self.cmbHandlerShells.getValue()
+
         # TODO
-        #shell = self.cmbHandlerShells.getValue()
         #if self.radValidUntilDate.get_active():
             #vuDay = self.spbValidUntilDay.get_value_as_int()
             #vuMonth = self.cmbValidUntilMonth.get_active() + 1
@@ -417,7 +418,7 @@ class UserManager(object):
         elif changed or facePath != "":
             err = 0
             if changed:
-                err = self.usr.manageUser(user=name, full_name=realName, primary_group=prGroup, home_dir=home, group_list=groups, password=password)
+                err = self.usr.manageUser(user=name, full_name=realName, primary_group=prGroup, home_dir=home, group_list=groups, shell=shell, password=password)
             if err == 0:
                 if exists(self.tempFace):
                     move(self.tempFace, facePath)
