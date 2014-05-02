@@ -1,3 +1,15 @@
+usermanager (0.6.5) debian; urgency=low
+
+  * Bug resolved with /dev/null as home directory
+
+ -- Schoelje <schoelje@solydxk.com>  Wed, 30 Apr 2014 11:00:00 +0100
+
+usermanager (0.6.4) debian; urgency=low
+
+  * Added German, Greek, Dutch, and Turkish translations
+
+ -- Schoelje <schoelje@solydxk.com>  Wed, 02 Apr 2014 19:00:00 +0100
+
 usermanager (0.6.3) debian; urgency=low
 
   * Resolved bug not being able to save real user names with spaces

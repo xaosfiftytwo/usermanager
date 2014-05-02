@@ -159,7 +159,7 @@ class User(object):
     def getUserFacePath(self, name=None):
         face = None
         homeDir = self.getUserHomeDir(name)
-        if exists(homeDir):
+        if exists(homeDir) and "/home" in homeDir:
             # Check for face icon
             if exists(join(homeDir, ".face")):
                 face = join(homeDir, ".face")
