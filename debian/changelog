@@ -1,3 +1,15 @@
+usermanager (0.6.7) debian; urgency=low
+
+  * Changed icon for Evolvere icon theme
+
+ -- Schoelje <schoelje@solydxk.com>  Wed, 17 Sep 2014 19:00:00 +0100
+
+usermanager (0.6.6) debian; urgency=low
+
+  * Moved locale to solydxk-locale
+
+ -- Schoelje <schoelje@solydxk.com>  Thu, 26 May 2014 08:00:00 +0100
+
 usermanager (0.6.5) debian; urgency=low
 
   * Bug resolved with /dev/null as home directory

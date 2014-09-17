@@ -1,10 +1,10 @@
 #!/bin/bash
-if [ $UID -eq 0 ]; then
-  /usr/bin/python3 /usr/lib/usermanager/usermanager.py $*
-else
-  LAUNCHER="gksudo"
+
+LAUNCHER=''
+if [ $UID -ne 0 ]; then
+  LAUNCHER='gksudo'
   if [ -e "/usr/bin/kdesudo" ]; then
     LAUNCHER="kdesudo"
   fi
-  $LAUNCHER /usr/bin/python3 /usr/lib/usermanager/usermanager.py $*
 fi
+$LAUNCHER /usr/bin/python3 /usr/lib/usermanager/usermanager.py $*

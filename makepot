@@ -1,3 +1,4 @@
 #!/bin/bash
 
-xgettext --language=Python --keyword=_ --output=usermanager.pot usr/lib/usermanager/usermanager.py usr/lib/usermanager/user.py
+xgettext --language=Python --keyword=_ --output=usermanager.pot $(find . -name "*.py" -type f)
+

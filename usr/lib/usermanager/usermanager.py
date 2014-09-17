@@ -86,7 +86,6 @@ class UserManager(object):
         self.window.set_title(_("User manager"))
         go('lblUsersTab').set_text(_("Users"))
         go('lblGroupsTab').set_text(_("Groups"))
-        go('lblTitle').set_text(self.window.get_title())
         go('lblUsersMain').set_text(go('lblUsersTab').get_text())
         go('lblUserGroupsMain').set_text(_("User groups"))
         go('lblGroupsMain').set_text(go('lblGroupsTab').get_text())
