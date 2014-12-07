@@ -1,0 +1,272 @@
+# Usermanager spanish translation.
+# Copyright (C) 2014 Juan Sánchez
+# This file is distributed under the same license as the Usermanager package.
+# Juan Sánchez <jsrmadrid@gmail.com>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Usermanager 0.6.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-02 18:59+0100\n"
+"PO-Revision-Date: 2014-10-22 10:43+0100\n"
+"Last-Translator: Juan Sánchez <jsrmadrid@gmail.com>\n"
+"Language-Team: SolydXK <admin@solydxk.com>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../usr/lib/usermanager/usermanager.py:86
+msgid "User manager"
+msgstr "Gestión de usuarios"
+
+#: ../usr/lib/usermanager/usermanager.py:87
+msgid "Users"
+msgstr "Usuarios"
+
+#: ../usr/lib/usermanager/usermanager.py:88
+msgid "Groups"
+msgstr "Grupos"
+
+#: ../usr/lib/usermanager/usermanager.py:90
+msgid "User groups"
+msgstr "Grupos de usuarios"
+
+#: ../usr/lib/usermanager/usermanager.py:92
+msgid "Group accounts"
+msgstr "Cuentas de grupo"
+
+#: ../usr/lib/usermanager/usermanager.py:94
+msgid "User settings"
+msgstr "Preferencias de usuario"
+
+#: ../usr/lib/usermanager/usermanager.py:95
+msgid "Details"
+msgstr "Detalles"
+
+#: ../usr/lib/usermanager/usermanager.py:96
+msgid "Status"
+msgstr "Estado"
+
+#: ../usr/lib/usermanager/usermanager.py:97
+msgid "Login name"
+msgstr "Nombre de acceso"
+
+#: ../usr/lib/usermanager/usermanager.py:98
+msgid "Real name"
+msgstr "Nombre real"
+
+#: ../usr/lib/usermanager/usermanager.py:99
+msgid "User ID"
+msgstr "ID de usuario"
+
+#: ../usr/lib/usermanager/usermanager.py:100
+msgid "Primary group"
+msgstr "Grupo primario"
+
+#: ../usr/lib/usermanager/usermanager.py:101
+msgid "Home directory"
+msgstr "Directorio de usuario"
+
+#: ../usr/lib/usermanager/usermanager.py:102
+msgid "Shell"
+msgstr "Intérprete de comandos"
+
+#: ../usr/lib/usermanager/usermanager.py:103
+msgid "Enabled"
+msgstr "Habilitado"
+
+#: ../usr/lib/usermanager/usermanager.py:104
+msgid "Disabled"
+msgstr "Deshabilitado"
+
+#: ../usr/lib/usermanager/usermanager.py:107
+msgid "Privileges"
+msgstr "Privilegios"
+
+#: ../usr/lib/usermanager/usermanager.py:109
+msgid "Password"
+msgstr "Contraseña"
+
+#: ../usr/lib/usermanager/usermanager.py:111
+msgid "Last changed"
+msgstr "Último cambio"
+
+#: ../usr/lib/usermanager/usermanager.py:112
+msgid "Valid until"
+msgstr "Válido hasta"
+
+#: ../usr/lib/usermanager/usermanager.py:113
+msgid "Always"
+msgstr "Siempre"
+
+#: ../usr/lib/usermanager/usermanager.py:114
+msgid "Password aging"
+msgstr "Caducidad de contraseña"
+
+#: ../usr/lib/usermanager/usermanager.py:115
+msgid "Require password after"
+msgstr "Requerir contraseña después de"
+
+#: ../usr/lib/usermanager/usermanager.py:116
+msgid "Warn before password expires after"
+msgstr "Avisar antes de que la contraseña caduque después de"
+
+#: ../usr/lib/usermanager/usermanager.py:117
+msgid "Disable account when password expires after"
+msgstr "Deshabilitar la cuenta cuando la contraseña ha expirado"
+
+#: ../usr/lib/usermanager/usermanager.py:118
+msgid "Enforce minimum password age"
+msgstr "Forzar el tiempo de vida mínimo de la contraseña"
+
+#: ../usr/lib/usermanager/usermanager.py:119
+msgid "days"
+msgstr "días"
+
+#: ../usr/lib/usermanager/usermanager.py:124
+msgid "Group settings"
+msgstr "Preferencias de grupo"
+
+#: ../usr/lib/usermanager/usermanager.py:125
+msgid "Group name"
+msgstr "Nombre de grupo"
+
+#: ../usr/lib/usermanager/usermanager.py:126
+msgid "Group ID"
+msgstr "ID de grupo"
+
+#: ../usr/lib/usermanager/usermanager.py:127
+msgid "Available accounts"
+msgstr "Cuentas disponibles"
+
+#: ../usr/lib/usermanager/usermanager.py:128
+msgid "Selected accounts"
+msgstr "Cuentas seleccionadas"
+
+#: ../usr/lib/usermanager/usermanager.py:270
+msgid "Remove user"
+msgstr "Eliminar usuario"
+
+#: ../usr/lib/usermanager/usermanager.py:272
+#, python-format
+msgid ""
+"Are you sure you want to remove the following user:\n"
+"\n"
+"'%(user)s'"
+msgstr ""
+"Confirme que desea eliminar el siguiente usuario:\n"
+"\n"
+"'%(user)s'"
+
+#: ../usr/lib/usermanager/usermanager.py:278
+#, python-format
+msgid "User successfully removed: %(user)s"
+msgstr "Usuario eliminado con éxito: %(user)s"
+
+#: ../usr/lib/usermanager/usermanager.py:282
+#, python-format
+msgid "Could not remove user: %(user)s %(retmsg)s"
+msgstr "Imposible eliminar el usuario: %(user)s %(retmsg)s"
+
+#: ../usr/lib/usermanager/usermanager.py:284
+msgid "You cannot remove the currently logged in user"
+msgstr "Imposible eliminar el usuario actual"
+
+#: ../usr/lib/usermanager/usermanager.py:287
+msgid "Select user directory"
+msgstr "Seleccionar directorio de usuario"
+
+#: ../usr/lib/usermanager/usermanager.py:369
+msgid "You need to provide a primary group for a new user"
+msgstr "Necesita proporcionar un grupo primario para el nuevo usuario"
+
+#: ../usr/lib/usermanager/usermanager.py:398
+msgid "You need to provide a password for a new user"
+msgstr "Necesita proporcionar una contraseña para el nuevo usuario"
+
+#: ../usr/lib/usermanager/usermanager.py:401
+msgid "You need to provide a name for a new user"
+msgstr "Necesita proporcionar un nombre para el nuevo usuario"
+
+#: ../usr/lib/usermanager/usermanager.py:413
+msgid "Save user settings"
+msgstr "Guardar preferencias de usuario"
+
+#: ../usr/lib/usermanager/usermanager.py:424
+#, python-format
+msgid "User saved: %(user)s"
+msgstr "Usuario guardado: %(user)s"
+
+#: ../usr/lib/usermanager/usermanager.py:434
+#, python-format
+msgid "Nothing was changed on user: %(user)s"
+msgstr "No se cambión nada para el usuario: %(user)s"
+
+#: ../usr/lib/usermanager/usermanager.py:489
+msgid "Select user image"
+msgstr "Seleccionar imagen de usuario"
+
+#: ../usr/lib/usermanager/usermanager.py:559
+msgid "Remove group"
+msgstr "Eliminar grupo"
+
+#: ../usr/lib/usermanager/usermanager.py:561
+#, python-format
+msgid ""
+"Are you sure you want to remove the following group:\n"
+"\n"
+"'%(group)s'"
+msgstr ""
+"Confirme que desea eliminar el siguiente grupo:\n"
+"\n"
+"'%(group)s'"
+
+#: ../usr/lib/usermanager/usermanager.py:566
+#, python-format
+msgid "Group successfully removed: %(group)s"
+msgstr "Grupo eliminado con éxito: %(group)s"
+
+#: ../usr/lib/usermanager/usermanager.py:570
+#, python-format
+msgid "Could not remove group: %(group)s %(retmsg)s"
+msgstr "Imposible eliminar el grupo: %(group)s %(retmsg)s"
+
+#: ../usr/lib/usermanager/usermanager.py:572
+msgid "You cannot remove the currently logged in user's primary group"
+msgstr "Emposible eliminar el grupo primario del usuario actual"
+
+#: ../usr/lib/usermanager/usermanager.py:590
+msgid "Remove account"
+msgstr "Eliminar cuenta"
+
+#: ../usr/lib/usermanager/usermanager.py:590
+msgid "You cannot remove an account from its own primary group"
+msgstr "Imposible eliminar una cuenta de su propio grupo primario"
+
+#: ../usr/lib/usermanager/user.py:247
+#, python-format
+msgid "Cannot remove group '%(group)s': not empty."
+msgstr "Imposible eliminar el grupo '%(group)s': no está vacío."
+
+#: ../usr/lib/usermanager/user.py:249 ../usr/lib/usermanager/user.py:321
+#, python-format
+msgid "The command '%(cmd)s' returned error code: %(ret)d."
+msgstr "El comando '%(cmd)s' devolvió el código de error: %(ret)d."
+
+#: ../usr/lib/usermanager/user.py:319
+#, python-format
+msgid ""
+"Cannot remove user '%(user)s': processes started by user are still running."
+msgstr "Imposible eliminar el usuario '%(user)s': tiene procesos iniciados."
+
+#: ../usr/share/applications/usermanager.desktop.in.h:1
+msgid "Manage users"
+msgstr ""
+
+#: ../usr/share/applications/usermanager.desktop.in.h:2
+#, fuzzy
+msgid "User management"
+msgstr "Gestión de usuarios"

@@ -1,35 +1,41 @@
+usermanager (0.6.8) debian; urgency=low
+
+  * Improved translation handling
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Sun, 02 Nov 2014 10:00:00 +0100
+
 usermanager (0.6.7) debian; urgency=low
 
   * Changed icon for Evolvere icon theme
 
- -- Schoelje <schoelje@solydxk.com>  Wed, 17 Sep 2014 19:00:00 +0100
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Wed, 17 Sep 2014 19:00:00 +0100
 
 usermanager (0.6.6) debian; urgency=low
 
   * Moved locale to solydxk-locale
 
- -- Schoelje <schoelje@solydxk.com>  Thu, 26 May 2014 08:00:00 +0100
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Thu, 26 May 2014 08:00:00 +0100
 
 usermanager (0.6.5) debian; urgency=low
 
   * Bug resolved with /dev/null as home directory
 
- -- Schoelje <schoelje@solydxk.com>  Wed, 30 Apr 2014 11:00:00 +0100
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Wed, 30 Apr 2014 11:00:00 +0100
 
 usermanager (0.6.4) debian; urgency=low
 
   * Added German, Greek, Dutch, and Turkish translations
 
- -- Schoelje <schoelje@solydxk.com>  Wed, 02 Apr 2014 19:00:00 +0100
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Wed, 02 Apr 2014 19:00:00 +0100
 
 usermanager (0.6.3) debian; urgency=low
 
   * Resolved bug not being able to save real user names with spaces
 
- -- Schoelje <schoelje@solydxk.com>  Sat, 30 Nov 2013 18:00:00 +0100
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Sat, 30 Nov 2013 18:00:00 +0100
 
 usermanager (0.5.9) debian; urgency=low
 
   * Initial version
 
- -- Schoelje <schoelje@solydxk.com>  Thu, 03 Oct 2013 13:00:00 +0100
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Thu, 03 Oct 2013 13:00:00 +0100

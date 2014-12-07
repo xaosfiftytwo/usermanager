@@ -1,14 +1,16 @@
 [Desktop Entry]
 Categories=System;
-Comment[en_US]=Manage users
 Comment=Manage users
+Comment[nl]=Beheer gebruikers
 Exec=usermanager
-GenericName[en_US]=User management
 GenericName=User management
+GenericName[nl]=Gebruikersbeheerder
+GenericName[se]=Användarhantering
 Icon=user-identity
 MimeType=
-Name[en_US]=User management
 Name=User management
+Name[nl]=Gebruikersbeheerder
+Name[se]=Användarhantering
 Path=
 StartupNotify=true
 Terminal=false

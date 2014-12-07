@@ -1,15 +1,22 @@
 Source: usermanager
 Section: admin
 Priority: optional
-Maintainer: Schoelje <schoelje@solydxk.com>
-Build-Depends: debhelper (>= 5)
-Standards-Version: 3.7.2
+Maintainer: Arjen Balfoort <arjenbalfoort@solydxk.com>
+Build-Depends: debhelper (>= 9)
+  , python
+  , intltool
+X-Python-Version: >= 3.0
+Standards-Version: 3.9.5
+Vcs-Git: git://github.com/SolydXK/usermanager.git
+Vcs-Browser: https://github.com/SolydXK/usermanager
 
 Package: usermanager
 Architecture: all
-Maintainer: Schoelje <schoelje@solydxk.com>
-Installed-Size: 265
-Depends: python3, python3-gi, passwd, gir1.2-gtk-3.0
-Section: admin
-Priority: optional
+Depends: ${misc:Depends}, ${python:Depends}
+  , python3
+  , python3-gi
+  , passwd
+  , gir1.2-gtk-3.0
+Conflicts: solydxk-locale
+Replaces: solydxk-locale
 Description: Simple user manager
