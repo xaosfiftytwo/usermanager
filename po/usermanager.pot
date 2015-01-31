@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-03 13:47+0100\n"
+"POT-Creation-Date: 2015-01-01 20:39+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -239,17 +239,17 @@ msgstr ""
 msgid "You cannot remove an account from its own primary group"
 msgstr ""
 
-#: ../usr/lib/usermanager/user.py:247
+#: ../usr/lib/usermanager/user.py:250
 #, python-format
 msgid "Cannot remove group '%(group)s': not empty."
 msgstr ""
 
-#: ../usr/lib/usermanager/user.py:249 ../usr/lib/usermanager/user.py:321
+#: ../usr/lib/usermanager/user.py:252 ../usr/lib/usermanager/user.py:324
 #, python-format
 msgid "The command '%(cmd)s' returned error code: %(ret)d."
 msgstr ""
 
-#: ../usr/lib/usermanager/user.py:319
+#: ../usr/lib/usermanager/user.py:322
 #, python-format
 msgid ""
 "Cannot remove user '%(user)s': processes started by user are still running."

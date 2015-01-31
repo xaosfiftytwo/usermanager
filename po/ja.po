@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: user manager\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-02 18:59+0100\n"
+"POT-Creation-Date: 2015-01-01 20:37+0100\n"
 "PO-Revision-Date: 2014-06-26 09:54+0100\n"
 "Last-Translator: \n"
 "Language-Team: SolydXK <admin@solydxk.com>\n"
@@ -246,17 +246,17 @@ msgstr "アカウントの削除"
 msgid "You cannot remove an account from its own primary group"
 msgstr "主グループからアカウントを削除できません"
 
-#: ../usr/lib/usermanager/user.py:247
+#: ../usr/lib/usermanager/user.py:250
 #, python-format
 msgid "Cannot remove group '%(group)s': not empty."
 msgstr "グループ '%(group)s' を削除できません: 存在しません"
 
-#: ../usr/lib/usermanager/user.py:249 ../usr/lib/usermanager/user.py:321
+#: ../usr/lib/usermanager/user.py:252 ../usr/lib/usermanager/user.py:324
 #, python-format
 msgid "The command '%(cmd)s' returned error code: %(ret)d."
 msgstr "コマンド '%(cmd)s' はエラーを返しました: %(ret)d"
 
-#: ../usr/lib/usermanager/user.py:319
+#: ../usr/lib/usermanager/user.py:322
 #, python-format
 msgid ""
 "Cannot remove user '%(user)s': processes started by user are still running."

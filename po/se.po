@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-02 18:59+0100\n"
+"POT-Creation-Date: 2015-01-01 20:37+0100\n"
 "PO-Revision-Date: 2014-08-23 13:06+0100\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -245,17 +245,17 @@ msgstr "Tag bort konto"
 msgid "You cannot remove an account from its own primary group"
 msgstr "Du kan inte ta bort ett konto från sin egen primärgrupp"
 
-#: ../usr/lib/usermanager/user.py:247
+#: ../usr/lib/usermanager/user.py:250
 #, python-format
 msgid "Cannot remove group '%(group)s': not empty."
 msgstr "Kan inte ta bort gruppen '%(group)s': gruppen är inte tom."
 
-#: ../usr/lib/usermanager/user.py:249 ../usr/lib/usermanager/user.py:321
+#: ../usr/lib/usermanager/user.py:252 ../usr/lib/usermanager/user.py:324
 #, python-format
 msgid "The command '%(cmd)s' returned error code: %(ret)d."
 msgstr "Kommandot '%(cmd)s' gav följande felkod: %(ret)d."
 
-#: ../usr/lib/usermanager/user.py:319
+#: ../usr/lib/usermanager/user.py:322
 #, python-format
 msgid ""
 "Cannot remove user '%(user)s': processes started by user are still running."
