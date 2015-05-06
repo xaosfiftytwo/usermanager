@@ -1,3 +1,9 @@
+usermanager (0.7.1) debian; urgency=low
+
+  * Added X-XFCE-SettingsDialog;X-XFCE-SystemSettings; to launcher
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Wed, 06 May 2015 15:00:00 +0100
+
 usermanager (0.7.0) debian; urgency=low
 
   * Lowered gtk+ version for Wheezy

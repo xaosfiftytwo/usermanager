@@ -1,5 +1,5 @@
 [Desktop Entry]
-Categories=System;
+Categories=Settings;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;
 Comment=Manage users
 Comment[nl]=Beheer gebruikers
 Exec=usermanager
