@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type=Service
+Icon=user-identity
+Exec=usermanager
+
+X-KDE-ServiceTypes=SystemSettingsExternalApp
+X-KDE-System-Settings-Parent-Category=system-administration 
+X-KDE-System-Settings-Parent-Category-V2=system-administration 
+X-KDE-ParentApp=usermanager
+Categories=Qt;KDE;X-KDE-settings-system-administration;
+
+Name=User management
+Name[nl]=Gebruikersbeheerder
+Name[se]=Användarhantering
+Comment=Manage users
+Comment[nl]=Beheer gebruikers

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-01 20:37+0100\n"
+"POT-Creation-Date: 2015-05-08 19:32+0200\n"
 "PO-Revision-Date: 2014-08-23 13:06+0100\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -263,10 +263,12 @@ msgstr ""
 "Kan inte ta bort användare '%(user)s': processer startade av användaren körs "
 "fortfarande."
 
-#: ../usr/share/applications/usermanager.desktop.in.h:1
-msgid "Manage users"
-msgstr ""
-
+#: ../usr/share/kde4/services/kcm_usermanager.desktop.in.h:1
 #: ../usr/share/applications/usermanager.desktop.in.h:2
 msgid "User management"
 msgstr "Användarhantering"
+
+#: ../usr/share/kde4/services/kcm_usermanager.desktop.in.h:2
+#: ../usr/share/applications/usermanager.desktop.in.h:1
+msgid "Manage users"
+msgstr ""

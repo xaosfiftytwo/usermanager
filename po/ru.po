@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: usermanager\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-01 20:37+0100\n"
+"POT-Creation-Date: 2015-05-08 19:32+0200\n"
 "PO-Revision-Date: 2014-06-26 09:56+0100\n"
 "Last-Translator: Igor Cheprasov <i-cheprasov@live.ru>\n"
 "Language-Team: SolydXK <admin@solydxk.com>\n"
@@ -265,11 +265,13 @@ msgstr ""
 "Не удалось удалить пользователя '%(user)s':пользовательские процессы все еще "
 "запущены."
 
-#: ../usr/share/applications/usermanager.desktop.in.h:1
-msgid "Manage users"
-msgstr ""
-
+#: ../usr/share/kde4/services/kcm_usermanager.desktop.in.h:1
 #: ../usr/share/applications/usermanager.desktop.in.h:2
 #, fuzzy
 msgid "User management"
 msgstr "Управление пользователями"
+
+#: ../usr/share/kde4/services/kcm_usermanager.desktop.in.h:2
+#: ../usr/share/applications/usermanager.desktop.in.h:1
+msgid "Manage users"
+msgstr ""

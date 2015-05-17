@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: user manager\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-01 20:37+0100\n"
+"POT-Creation-Date: 2015-05-08 19:32+0200\n"
 "PO-Revision-Date: 2014-06-26 09:54+0100\n"
 "Last-Translator: \n"
 "Language-Team: SolydXK <admin@solydxk.com>\n"
@@ -263,11 +263,13 @@ msgid ""
 msgstr ""
 "ユーザーを削除できません '%(user)s': ユーザーによってプロセスが動作しています"
 
-#: ../usr/share/applications/usermanager.desktop.in.h:1
-msgid "Manage users"
-msgstr ""
-
+#: ../usr/share/kde4/services/kcm_usermanager.desktop.in.h:1
 #: ../usr/share/applications/usermanager.desktop.in.h:2
 #, fuzzy
 msgid "User management"
 msgstr "ユーザーマネージャー"
+
+#: ../usr/share/kde4/services/kcm_usermanager.desktop.in.h:2
+#: ../usr/share/applications/usermanager.desktop.in.h:1
+msgid "Manage users"
+msgstr ""

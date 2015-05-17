@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: usermanager 0.6.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-01 20:37+0100\n"
+"POT-Creation-Date: 2015-05-08 19:32+0200\n"
 "PO-Revision-Date: 2014-04-02 18:54+0100\n"
 "Last-Translator: Schoelje <schoelje@solydxk.com>\n"
 "Language-Team: SolydXK <admin@solydxk.com>\n"
@@ -264,10 +264,12 @@ msgstr ""
 "Kan gebruiker '%(user)s' niet verwijderen: er lopen nog processen die door "
 "de gebruiker gestart zijn."
 
-#: ../usr/share/applications/usermanager.desktop.in.h:1
-msgid "Manage users"
-msgstr "Beheer gebruikers"
-
+#: ../usr/share/kde4/services/kcm_usermanager.desktop.in.h:1
 #: ../usr/share/applications/usermanager.desktop.in.h:2
 msgid "User management"
 msgstr "Gebruikersbeheerder"
+
+#: ../usr/share/kde4/services/kcm_usermanager.desktop.in.h:2
+#: ../usr/share/applications/usermanager.desktop.in.h:1
+msgid "Manage users"
+msgstr "Beheer gebruikers"

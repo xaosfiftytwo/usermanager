@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Usermanager 201406\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-01 20:37+0100\n"
+"POT-Creation-Date: 2015-05-08 19:32+0200\n"
 "PO-Revision-Date: 2014-06-28 20:16+0100\n"
 "Last-Translator: Eduard Selma <selma@tinet.cat>\n"
 "Language-Team: SolydXK <admin@solydxk.com>\n"
@@ -265,11 +265,13 @@ msgstr ""
 "No es pot eliminar l'usuari '%(user)s': els processos que ha engegat "
 "l'usuari encara s'executen."
 
-#: ../usr/share/applications/usermanager.desktop.in.h:1
-msgid "Manage users"
-msgstr ""
-
+#: ../usr/share/kde4/services/kcm_usermanager.desktop.in.h:1
 #: ../usr/share/applications/usermanager.desktop.in.h:2
 #, fuzzy
 msgid "User management"
 msgstr "Gestor d'usuaris"
+
+#: ../usr/share/kde4/services/kcm_usermanager.desktop.in.h:2
+#: ../usr/share/applications/usermanager.desktop.in.h:1
+msgid "Manage users"
+msgstr ""
