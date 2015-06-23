@@ -1,5 +1,4 @@
 #! /usr/bin/env python3
-#-*- coding: utf-8 -*-
 
 # Password settings
 # http://docs.python.org/2/library/spwd.html#module-spwd
@@ -11,7 +10,6 @@
 from gi.repository import Gtk, Gdk
 #import sys
 import os
-import gettext
 import functions
 from datetime import datetime
 # abspath, dirname, join, expanduser, exists, basename
@@ -24,11 +22,10 @@ from dialogs import MessageDialogSave, QuestionDialog, SelectDirectoryDialog, Se
 from image import ImageHandler
 from user import User
 
-
-# i18n: http://docs.python.org/2/library/gettext.html
-gettext.install("usermanager", "/usr/share/locale")
-#t = gettext.translation("usermanager", "/usr/share/locale")
-#_ = t.lgettext
+# i18n: http://docs.python.org/3/library/gettext.html
+import gettext
+from gettext import gettext as _
+gettext.textdomain('usermanager')
 
 
 #class for the main window

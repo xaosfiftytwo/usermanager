@@ -1,5 +1,4 @@
 #! /usr/bin/env python3
-#-*- coding: utf-8 -*-
 
 import os
 import pwd
@@ -11,6 +10,11 @@ from shutil import copy
 from datetime import datetime, timedelta
 from gi.repository import GdkPixbuf, Gtk
 from os.path import join, exists
+
+# i18n: http://docs.python.org/3/library/gettext.html
+import gettext
+from gettext import gettext as _
+gettext.textdomain('usermanager')
 
 #pwd
 #Index	Attribute	Meaning

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: usermanager\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-08 19:32+0200\n"
+"POT-Creation-Date: 2015-06-22 13:30+0200\n"
 "PO-Revision-Date: 2014-06-26 09:56+0100\n"
 "Last-Translator: Igor Cheprasov <i-cheprasov@live.ru>\n"
 "Language-Team: SolydXK <admin@solydxk.com>\n"
@@ -18,139 +18,139 @@ msgstr ""
 "X-Generator: Poedit 1.5.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: ../usr/lib/usermanager/usermanager.py:86
+#: ../usr/lib/usermanager/usermanager.py:83
 msgid "User manager"
 msgstr "Управление пользователями"
 
-#: ../usr/lib/usermanager/usermanager.py:87
+#: ../usr/lib/usermanager/usermanager.py:84
 msgid "Users"
 msgstr "Пользователи"
 
-#: ../usr/lib/usermanager/usermanager.py:88
+#: ../usr/lib/usermanager/usermanager.py:85
 msgid "Groups"
 msgstr "Группы"
 
-#: ../usr/lib/usermanager/usermanager.py:90
+#: ../usr/lib/usermanager/usermanager.py:87
 msgid "User groups"
 msgstr "Пользовательские группы"
 
-#: ../usr/lib/usermanager/usermanager.py:92
+#: ../usr/lib/usermanager/usermanager.py:89
 msgid "Group accounts"
 msgstr "Учетные записи группы"
 
-#: ../usr/lib/usermanager/usermanager.py:94
+#: ../usr/lib/usermanager/usermanager.py:91
 msgid "User settings"
 msgstr "Настройки пользователя"
 
-#: ../usr/lib/usermanager/usermanager.py:95
+#: ../usr/lib/usermanager/usermanager.py:92
 msgid "Details"
 msgstr "Подробно"
 
-#: ../usr/lib/usermanager/usermanager.py:96
+#: ../usr/lib/usermanager/usermanager.py:93
 msgid "Status"
 msgstr "Состояние"
 
-#: ../usr/lib/usermanager/usermanager.py:97
+#: ../usr/lib/usermanager/usermanager.py:94
 msgid "Login name"
 msgstr "Логин"
 
-#: ../usr/lib/usermanager/usermanager.py:98
+#: ../usr/lib/usermanager/usermanager.py:95
 msgid "Real name"
 msgstr "Имя"
 
-#: ../usr/lib/usermanager/usermanager.py:99
+#: ../usr/lib/usermanager/usermanager.py:96
 msgid "User ID"
 msgstr "ID пользователя"
 
-#: ../usr/lib/usermanager/usermanager.py:100
+#: ../usr/lib/usermanager/usermanager.py:97
 msgid "Primary group"
 msgstr "Основная группа"
 
-#: ../usr/lib/usermanager/usermanager.py:101
+#: ../usr/lib/usermanager/usermanager.py:98
 msgid "Home directory"
 msgstr "Домашний каталог"
 
-#: ../usr/lib/usermanager/usermanager.py:102
+#: ../usr/lib/usermanager/usermanager.py:99
 msgid "Shell"
 msgstr "Оболочка"
 
-#: ../usr/lib/usermanager/usermanager.py:103
+#: ../usr/lib/usermanager/usermanager.py:100
 msgid "Enabled"
 msgstr "Включено"
 
-#: ../usr/lib/usermanager/usermanager.py:104
+#: ../usr/lib/usermanager/usermanager.py:101
 msgid "Disabled"
 msgstr "Выключено"
 
-#: ../usr/lib/usermanager/usermanager.py:107
+#: ../usr/lib/usermanager/usermanager.py:104
 msgid "Privileges"
 msgstr "Привилегии"
 
-#: ../usr/lib/usermanager/usermanager.py:109
+#: ../usr/lib/usermanager/usermanager.py:106
 msgid "Password"
 msgstr "Пароль"
 
-#: ../usr/lib/usermanager/usermanager.py:111
+#: ../usr/lib/usermanager/usermanager.py:108
 msgid "Last changed"
 msgstr "Последнее изменение"
 
-#: ../usr/lib/usermanager/usermanager.py:112
+#: ../usr/lib/usermanager/usermanager.py:109
 msgid "Valid until"
 msgstr "Действительно до"
 
-#: ../usr/lib/usermanager/usermanager.py:113
+#: ../usr/lib/usermanager/usermanager.py:110
 msgid "Always"
 msgstr "Всегда"
 
-#: ../usr/lib/usermanager/usermanager.py:114
+#: ../usr/lib/usermanager/usermanager.py:111
 msgid "Password aging"
 msgstr "Устаревание пароля"
 
-#: ../usr/lib/usermanager/usermanager.py:115
+#: ../usr/lib/usermanager/usermanager.py:112
 msgid "Require password after"
 msgstr "Требовать пароль после"
 
-#: ../usr/lib/usermanager/usermanager.py:116
+#: ../usr/lib/usermanager/usermanager.py:113
 msgid "Warn before password expires after"
 msgstr "Предупреждать перед истечения срока действия пароля"
 
-#: ../usr/lib/usermanager/usermanager.py:117
+#: ../usr/lib/usermanager/usermanager.py:114
 msgid "Disable account when password expires after"
 msgstr "Отключать учетную запись с истекшим паролем"
 
-#: ../usr/lib/usermanager/usermanager.py:118
+#: ../usr/lib/usermanager/usermanager.py:115
 msgid "Enforce minimum password age"
 msgstr "Обеспечить соблюдение минимального срока службы пароля"
 
-#: ../usr/lib/usermanager/usermanager.py:119
+#: ../usr/lib/usermanager/usermanager.py:116
 msgid "days"
 msgstr "дней"
 
-#: ../usr/lib/usermanager/usermanager.py:124
+#: ../usr/lib/usermanager/usermanager.py:121
 msgid "Group settings"
 msgstr "Настройки группы"
 
-#: ../usr/lib/usermanager/usermanager.py:125
+#: ../usr/lib/usermanager/usermanager.py:122
 msgid "Group name"
 msgstr "Имя группы"
 
-#: ../usr/lib/usermanager/usermanager.py:126
+#: ../usr/lib/usermanager/usermanager.py:123
 msgid "Group ID"
 msgstr "ID группы"
 
-#: ../usr/lib/usermanager/usermanager.py:127
+#: ../usr/lib/usermanager/usermanager.py:124
 msgid "Available accounts"
 msgstr "Доступные учетные записи"
 
-#: ../usr/lib/usermanager/usermanager.py:128
+#: ../usr/lib/usermanager/usermanager.py:125
 msgid "Selected accounts"
 msgstr "Выбранные учетные записи"
 
-#: ../usr/lib/usermanager/usermanager.py:270
+#: ../usr/lib/usermanager/usermanager.py:267
 msgid "Remove user"
 msgstr "Удалить пользователя"
 
-#: ../usr/lib/usermanager/usermanager.py:272
+#: ../usr/lib/usermanager/usermanager.py:269
 #, python-format
 msgid ""
 "Are you sure you want to remove the following user:\n"
@@ -161,60 +161,60 @@ msgstr ""
 "\n"
 "'%(user)s'"
 
-#: ../usr/lib/usermanager/usermanager.py:278
+#: ../usr/lib/usermanager/usermanager.py:275
 #, python-format
 msgid "User successfully removed: %(user)s"
 msgstr "Пользователь успешно удален: %(user)s"
 
-#: ../usr/lib/usermanager/usermanager.py:282
+#: ../usr/lib/usermanager/usermanager.py:279
 #, python-format
 msgid "Could not remove user: %(user)s %(retmsg)s"
 msgstr "Не удалось удалить пользователя: %(user)s %(retmsg)s"
 
-#: ../usr/lib/usermanager/usermanager.py:284
+#: ../usr/lib/usermanager/usermanager.py:281
 msgid "You cannot remove the currently logged in user"
 msgstr ""
 "Вы не можете удалить пользователя, находящегося в данный момент в системе"
 
-#: ../usr/lib/usermanager/usermanager.py:287
+#: ../usr/lib/usermanager/usermanager.py:284
 msgid "Select user directory"
 msgstr "Выбрать пользовательский каталог"
 
-#: ../usr/lib/usermanager/usermanager.py:369
+#: ../usr/lib/usermanager/usermanager.py:366
 msgid "You need to provide a primary group for a new user"
 msgstr "Вам необходимо предоставить основную группу для нового пользователя"
 
-#: ../usr/lib/usermanager/usermanager.py:398
+#: ../usr/lib/usermanager/usermanager.py:395
 msgid "You need to provide a password for a new user"
 msgstr "Вам необходимо предоставить пароль для нового пользователя"
 
-#: ../usr/lib/usermanager/usermanager.py:401
+#: ../usr/lib/usermanager/usermanager.py:398
 msgid "You need to provide a name for a new user"
 msgstr "Вам необходимо предоставить имя для нового пользователя"
 
-#: ../usr/lib/usermanager/usermanager.py:413
+#: ../usr/lib/usermanager/usermanager.py:410
 msgid "Save user settings"
 msgstr "Сохранить настройки пользователя"
 
-#: ../usr/lib/usermanager/usermanager.py:424
+#: ../usr/lib/usermanager/usermanager.py:421
 #, python-format
 msgid "User saved: %(user)s"
 msgstr "Пользователь сохранен: %(user)s"
 
-#: ../usr/lib/usermanager/usermanager.py:434
+#: ../usr/lib/usermanager/usermanager.py:431
 #, python-format
 msgid "Nothing was changed on user: %(user)s"
 msgstr "Изменений не внесено в пользователе: %(user)s"
 
-#: ../usr/lib/usermanager/usermanager.py:489
+#: ../usr/lib/usermanager/usermanager.py:486
 msgid "Select user image"
 msgstr "Выберите изображение пользователя"
 
-#: ../usr/lib/usermanager/usermanager.py:559
+#: ../usr/lib/usermanager/usermanager.py:556
 msgid "Remove group"
 msgstr "Удалить группу"
 
-#: ../usr/lib/usermanager/usermanager.py:561
+#: ../usr/lib/usermanager/usermanager.py:558
 #, python-format
 msgid ""
 "Are you sure you want to remove the following group:\n"
@@ -225,39 +225,39 @@ msgstr ""
 "\n"
 "'%(group)s'"
 
-#: ../usr/lib/usermanager/usermanager.py:566
+#: ../usr/lib/usermanager/usermanager.py:563
 #, python-format
 msgid "Group successfully removed: %(group)s"
 msgstr "Группа успешно удалена: %(group)s"
 
-#: ../usr/lib/usermanager/usermanager.py:570
+#: ../usr/lib/usermanager/usermanager.py:567
 #, python-format
 msgid "Could not remove group: %(group)s %(retmsg)s"
 msgstr "Не удалось удалить группу: %(group)s %(retmsg)s"
 
-#: ../usr/lib/usermanager/usermanager.py:572
+#: ../usr/lib/usermanager/usermanager.py:569
 msgid "You cannot remove the currently logged in user's primary group"
 msgstr "Вы не можете удалить основную группу пользователя, "
 
-#: ../usr/lib/usermanager/usermanager.py:590
+#: ../usr/lib/usermanager/usermanager.py:587
 msgid "Remove account"
 msgstr "Удалить учетную запись"
 
-#: ../usr/lib/usermanager/usermanager.py:590
+#: ../usr/lib/usermanager/usermanager.py:587
 msgid "You cannot remove an account from its own primary group"
 msgstr "Вы не можете удалить учетную запись из ее собственной основной группы"
 
-#: ../usr/lib/usermanager/user.py:250
+#: ../usr/lib/usermanager/user.py:254
 #, python-format
 msgid "Cannot remove group '%(group)s': not empty."
 msgstr "Не удалось удалить группу '%(group)s':группа не пуста."
 
-#: ../usr/lib/usermanager/user.py:252 ../usr/lib/usermanager/user.py:324
+#: ../usr/lib/usermanager/user.py:256 ../usr/lib/usermanager/user.py:328
 #, python-format
 msgid "The command '%(cmd)s' returned error code: %(ret)d."
 msgstr "Команда '%(cmd)s' вернула код ошибки: %(ret)d."
 
-#: ../usr/lib/usermanager/user.py:322
+#: ../usr/lib/usermanager/user.py:326
 #, python-format
 msgid ""
 "Cannot remove user '%(user)s': processes started by user are still running."
