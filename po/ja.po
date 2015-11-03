@@ -1,22 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: user manager\n"
+"Project-Id-Version: usermanager\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-22 13:30+0200\n"
-"PO-Revision-Date: 2014-06-26 09:54+0100\n"
-"Last-Translator: \n"
-"Language-Team: SolydXK <admin@solydxk.com>\n"
-"Language: Japanese\n"
+"POT-Creation-Date: 2015-11-03 16:57+0100\n"
+"PO-Revision-Date: 2015-10-22 05:34+0000\n"
+"Last-Translator: Arjen Balfoort <schoelje@solydxk.com>\n"
+"Language-Team: Japanese (http://www.transifex.com/solydxk/usermanager/"
+"language/ja/)\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
-"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../usr/lib/usermanager/usermanager.py:83
 msgid "User manager"
@@ -265,9 +265,8 @@ msgstr ""
 
 #: ../usr/share/kde4/services/kcm_usermanager.desktop.in.h:1
 #: ../usr/share/applications/usermanager.desktop.in.h:2
-#, fuzzy
 msgid "User management"
-msgstr "ユーザーマネージャー"
+msgstr ""
 
 #: ../usr/share/kde4/services/kcm_usermanager.desktop.in.h:2
 #: ../usr/share/applications/usermanager.desktop.in.h:1

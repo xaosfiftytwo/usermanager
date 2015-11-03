@@ -1,21 +1,23 @@
-# Usermanager spanish translation.
-# Copyright (C) 2014 Juan Sánchez
-# This file is distributed under the same license as the Usermanager package.
-# Juan Sánchez <jsrmadrid@gmail.com>, 2014.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
 #
+# Translators:
+# Ariel Méndez <arielmendz@gmail.com>, 2015
+# Juan Sánchez <jsrmadrid@gmail.com>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Usermanager 0.6.7\n"
+"Project-Id-Version: usermanager\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-22 13:30+0200\n"
-"PO-Revision-Date: 2014-10-22 10:43+0100\n"
-"Last-Translator: Juan Sánchez <jsrmadrid@gmail.com>\n"
-"Language-Team: SolydXK <admin@solydxk.com>\n"
+"POT-Creation-Date: 2015-11-03 16:57+0100\n"
+"PO-Revision-Date: 2015-10-26 15:40+0000\n"
+"Last-Translator: Ariel Méndez <arielmendz@gmail.com>\n"
+"Language-Team: Spanish (http://www.transifex.com/solydxk/usermanager/"
+"language/es/)\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../usr/lib/usermanager/usermanager.py:83
@@ -264,11 +266,10 @@ msgstr "Imposible eliminar el usuario '%(user)s': tiene procesos iniciados."
 
 #: ../usr/share/kde4/services/kcm_usermanager.desktop.in.h:1
 #: ../usr/share/applications/usermanager.desktop.in.h:2
-#, fuzzy
 msgid "User management"
 msgstr "Gestión de usuarios"
 
 #: ../usr/share/kde4/services/kcm_usermanager.desktop.in.h:2
 #: ../usr/share/applications/usermanager.desktop.in.h:1
 msgid "Manage users"
-msgstr ""
+msgstr "Gestionar usuarios"
