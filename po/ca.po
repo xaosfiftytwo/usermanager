@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: usermanager\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-03 16:57+0100\n"
+"POT-Creation-Date: 2015-12-02 12:52+0100\n"
 "PO-Revision-Date: 2015-10-23 09:59+0000\n"
 "Last-Translator: Eduard Selma <selma@tinet.cat>\n"
 "Language-Team: Catalan (http://www.transifex.com/solydxk/usermanager/"
@@ -19,139 +19,139 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../usr/lib/usermanager/usermanager.py:83
+#: ../usr/lib/usermanager/usermanager.py:87
 msgid "User manager"
 msgstr "Gestor d'usuaris"
 
-#: ../usr/lib/usermanager/usermanager.py:84
+#: ../usr/lib/usermanager/usermanager.py:88
 msgid "Users"
 msgstr "Usuaris"
 
-#: ../usr/lib/usermanager/usermanager.py:85
+#: ../usr/lib/usermanager/usermanager.py:89
 msgid "Groups"
 msgstr "Grups"
 
-#: ../usr/lib/usermanager/usermanager.py:87
+#: ../usr/lib/usermanager/usermanager.py:91
 msgid "User groups"
 msgstr "Grups d'usuaris"
 
-#: ../usr/lib/usermanager/usermanager.py:89
+#: ../usr/lib/usermanager/usermanager.py:93
 msgid "Group accounts"
 msgstr "Comptes de grup"
 
-#: ../usr/lib/usermanager/usermanager.py:91
+#: ../usr/lib/usermanager/usermanager.py:95
 msgid "User settings"
 msgstr "Paràmetres d'usuari"
 
-#: ../usr/lib/usermanager/usermanager.py:92
+#: ../usr/lib/usermanager/usermanager.py:96
 msgid "Details"
 msgstr "Detalls"
 
-#: ../usr/lib/usermanager/usermanager.py:93
+#: ../usr/lib/usermanager/usermanager.py:97
 msgid "Status"
 msgstr "Estat"
 
-#: ../usr/lib/usermanager/usermanager.py:94
+#: ../usr/lib/usermanager/usermanager.py:98
 msgid "Login name"
 msgstr "Nom d'entrada "
 
-#: ../usr/lib/usermanager/usermanager.py:95
+#: ../usr/lib/usermanager/usermanager.py:99
 msgid "Real name"
 msgstr "Nom real"
 
-#: ../usr/lib/usermanager/usermanager.py:96
+#: ../usr/lib/usermanager/usermanager.py:100
 msgid "User ID"
 msgstr "ID d'usuari"
 
-#: ../usr/lib/usermanager/usermanager.py:97
+#: ../usr/lib/usermanager/usermanager.py:101
 msgid "Primary group"
 msgstr "Grup primari"
 
-#: ../usr/lib/usermanager/usermanager.py:98
+#: ../usr/lib/usermanager/usermanager.py:102
 msgid "Home directory"
 msgstr "Directori de l'usuari "
 
-#: ../usr/lib/usermanager/usermanager.py:99
+#: ../usr/lib/usermanager/usermanager.py:103
 msgid "Shell"
 msgstr "Intèrpret d'ordres"
 
-#: ../usr/lib/usermanager/usermanager.py:100
+#: ../usr/lib/usermanager/usermanager.py:104
 msgid "Enabled"
 msgstr "Activat"
 
-#: ../usr/lib/usermanager/usermanager.py:101
+#: ../usr/lib/usermanager/usermanager.py:105
 msgid "Disabled"
 msgstr "Desactivat"
 
-#: ../usr/lib/usermanager/usermanager.py:104
+#: ../usr/lib/usermanager/usermanager.py:108
 msgid "Privileges"
 msgstr "Privilegis"
 
-#: ../usr/lib/usermanager/usermanager.py:106
+#: ../usr/lib/usermanager/usermanager.py:110
 msgid "Password"
 msgstr "Contrasenya"
 
-#: ../usr/lib/usermanager/usermanager.py:108
+#: ../usr/lib/usermanager/usermanager.py:112
 msgid "Last changed"
 msgstr "Darrer canvi"
 
-#: ../usr/lib/usermanager/usermanager.py:109
+#: ../usr/lib/usermanager/usermanager.py:113
 msgid "Valid until"
 msgstr "Vàlid fins "
 
-#: ../usr/lib/usermanager/usermanager.py:110
+#: ../usr/lib/usermanager/usermanager.py:114
 msgid "Always"
 msgstr "Sempre"
 
-#: ../usr/lib/usermanager/usermanager.py:111
+#: ../usr/lib/usermanager/usermanager.py:115
 msgid "Password aging"
 msgstr "La contrasenya expira"
 
-#: ../usr/lib/usermanager/usermanager.py:112
+#: ../usr/lib/usermanager/usermanager.py:116
 msgid "Require password after"
 msgstr "No és vàlid després de"
 
-#: ../usr/lib/usermanager/usermanager.py:113
+#: ../usr/lib/usermanager/usermanager.py:117
 msgid "Warn before password expires after"
 msgstr "Avisa abans que la contrasenya venci després de"
 
-#: ../usr/lib/usermanager/usermanager.py:114
+#: ../usr/lib/usermanager/usermanager.py:118
 msgid "Disable account when password expires after"
 msgstr "Deshabilita el compte quan la contrasenya venci després de"
 
-#: ../usr/lib/usermanager/usermanager.py:115
+#: ../usr/lib/usermanager/usermanager.py:119
 msgid "Enforce minimum password age"
 msgstr "Imposa el temps de vida mínim de la contrasenya"
 
-#: ../usr/lib/usermanager/usermanager.py:116
+#: ../usr/lib/usermanager/usermanager.py:120
 msgid "days"
 msgstr "dies"
 
-#: ../usr/lib/usermanager/usermanager.py:121
+#: ../usr/lib/usermanager/usermanager.py:125
 msgid "Group settings"
 msgstr "Paràmetres del grup"
 
-#: ../usr/lib/usermanager/usermanager.py:122
+#: ../usr/lib/usermanager/usermanager.py:126
 msgid "Group name"
 msgstr "Nom del grup"
 
-#: ../usr/lib/usermanager/usermanager.py:123
+#: ../usr/lib/usermanager/usermanager.py:127
 msgid "Group ID"
 msgstr "ID del grup"
 
-#: ../usr/lib/usermanager/usermanager.py:124
+#: ../usr/lib/usermanager/usermanager.py:128
 msgid "Available accounts"
 msgstr "Comptes disponibles"
 
-#: ../usr/lib/usermanager/usermanager.py:125
+#: ../usr/lib/usermanager/usermanager.py:129
 msgid "Selected accounts"
 msgstr "Comptes seleccionats"
 
-#: ../usr/lib/usermanager/usermanager.py:267
+#: ../usr/lib/usermanager/usermanager.py:271
 msgid "Remove user"
 msgstr "Elimina l'usuari"
 
-#: ../usr/lib/usermanager/usermanager.py:269
+#: ../usr/lib/usermanager/usermanager.py:273
 #, python-format
 msgid ""
 "Are you sure you want to remove the following user:\n"
@@ -162,59 +162,59 @@ msgstr ""
 "\n"
 "'%(user)s'"
 
-#: ../usr/lib/usermanager/usermanager.py:275
+#: ../usr/lib/usermanager/usermanager.py:279
 #, python-format
 msgid "User successfully removed: %(user)s"
 msgstr "S'ha eliminat aquest usuari: %(user)s"
 
-#: ../usr/lib/usermanager/usermanager.py:279
+#: ../usr/lib/usermanager/usermanager.py:283
 #, python-format
 msgid "Could not remove user: %(user)s %(retmsg)s"
 msgstr "L'usuari %(user)s no s'ha pogut eliminar: %(retmsg)s"
 
-#: ../usr/lib/usermanager/usermanager.py:281
+#: ../usr/lib/usermanager/usermanager.py:285
 msgid "You cannot remove the currently logged in user"
 msgstr "No podeu eliminar l'usuari on ara esteu connectat"
 
-#: ../usr/lib/usermanager/usermanager.py:284
+#: ../usr/lib/usermanager/usermanager.py:288
 msgid "Select user directory"
 msgstr "Trieu el directori d'usuari"
 
-#: ../usr/lib/usermanager/usermanager.py:366
+#: ../usr/lib/usermanager/usermanager.py:370
 msgid "You need to provide a primary group for a new user"
 msgstr "Cal facilitar un grup primari per a un usuari nou "
 
-#: ../usr/lib/usermanager/usermanager.py:395
+#: ../usr/lib/usermanager/usermanager.py:399
 msgid "You need to provide a password for a new user"
 msgstr "Cal donar una contrasenya per a un usuari nou "
 
-#: ../usr/lib/usermanager/usermanager.py:398
+#: ../usr/lib/usermanager/usermanager.py:402
 msgid "You need to provide a name for a new user"
 msgstr "Cal proporcionar un nom per a un usuari nou "
 
-#: ../usr/lib/usermanager/usermanager.py:410
+#: ../usr/lib/usermanager/usermanager.py:414
 msgid "Save user settings"
 msgstr "Desa els paràmetres d'usuari "
 
-#: ../usr/lib/usermanager/usermanager.py:421
+#: ../usr/lib/usermanager/usermanager.py:425
 #, python-format
 msgid "User saved: %(user)s"
 msgstr "S'ha desat l'usuari: %(user)s"
 
-#: ../usr/lib/usermanager/usermanager.py:431
+#: ../usr/lib/usermanager/usermanager.py:435
 #, python-format
 msgid "Nothing was changed on user: %(user)s"
 msgstr "No s'ha canviat res a l'usuari: %(user)s"
 
-#: ../usr/lib/usermanager/usermanager.py:486
+#: ../usr/lib/usermanager/usermanager.py:490
 msgid "Select user image"
 msgstr "Trieu la imatge d'usuari"
 
-#: ../usr/lib/usermanager/usermanager.py:556
+#: ../usr/lib/usermanager/usermanager.py:560
 msgid "Remove group"
 msgstr "Elimina el grup "
 
-#: ../usr/lib/usermanager/usermanager.py:558
+#: ../usr/lib/usermanager/usermanager.py:562
 #, python-format
 msgid ""
 "Are you sure you want to remove the following group:\n"
@@ -225,39 +225,39 @@ msgstr ""
 "\n"
 "'%(group)s'?"
 
-#: ../usr/lib/usermanager/usermanager.py:563
+#: ../usr/lib/usermanager/usermanager.py:567
 #, python-format
 msgid "Group successfully removed: %(group)s"
 msgstr "Grup eliminat amb èxit: %(group)s"
 
-#: ../usr/lib/usermanager/usermanager.py:567
+#: ../usr/lib/usermanager/usermanager.py:571
 #, python-format
 msgid "Could not remove group: %(group)s %(retmsg)s"
 msgstr "No s'ha pogut eliminar el grup %(group)s: %(retmsg)s"
 
-#: ../usr/lib/usermanager/usermanager.py:569
+#: ../usr/lib/usermanager/usermanager.py:573
 msgid "You cannot remove the currently logged in user's primary group"
 msgstr "No podeu eliminar el grup primari de l'usuari actual"
 
-#: ../usr/lib/usermanager/usermanager.py:587
+#: ../usr/lib/usermanager/usermanager.py:591
 msgid "Remove account"
 msgstr "Elimina el compte "
 
-#: ../usr/lib/usermanager/usermanager.py:587
+#: ../usr/lib/usermanager/usermanager.py:591
 msgid "You cannot remove an account from its own primary group"
 msgstr "No podeu eliminar un compte del seu propi grup primari "
 
-#: ../usr/lib/usermanager/user.py:254
+#: ../usr/lib/usermanager/user.py:258
 #, python-format
 msgid "Cannot remove group '%(group)s': not empty."
 msgstr "No podeu eliminar '%(group)s' : no està buit."
 
-#: ../usr/lib/usermanager/user.py:256 ../usr/lib/usermanager/user.py:328
+#: ../usr/lib/usermanager/user.py:260 ../usr/lib/usermanager/user.py:332
 #, python-format
 msgid "The command '%(cmd)s' returned error code: %(ret)d."
 msgstr "L'ordre '%(cmd)s' ha retornat el codi d'error: %(ret)d. "
 
-#: ../usr/lib/usermanager/user.py:326
+#: ../usr/lib/usermanager/user.py:330
 #, python-format
 msgid ""
 "Cannot remove user '%(user)s': processes started by user are still running."

@@ -5,6 +5,10 @@
 # User settings
 # http://docs.python.org/2/library/pwd.html
 
+# Make sure the right Gtk version is loaded
+import gi
+gi.require_version('Gtk', '3.0')
+
 # sudo apt-get install python3-gi
 # from gi.repository import Gtk, GdkPixbuf, GObject, Pango, Gdk
 from gi.repository import Gtk, Gdk

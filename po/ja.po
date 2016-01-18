@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
+# BALLOON a.k.a. Fu-sen., 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: usermanager\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-03 16:57+0100\n"
-"PO-Revision-Date: 2015-10-22 05:34+0000\n"
-"Last-Translator: Arjen Balfoort <schoelje@solydxk.com>\n"
+"POT-Creation-Date: 2015-12-02 12:52+0100\n"
+"PO-Revision-Date: 2015-11-07 02:46+0000\n"
+"Last-Translator: BALLOON a.k.a. Fu-sen.\n"
 "Language-Team: Japanese (http://www.transifex.com/solydxk/usermanager/"
 "language/ja/)\n"
 "Language: ja\n"
@@ -18,139 +19,139 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../usr/lib/usermanager/usermanager.py:83
+#: ../usr/lib/usermanager/usermanager.py:87
 msgid "User manager"
 msgstr "ユーザーマネージャー"
 
-#: ../usr/lib/usermanager/usermanager.py:84
+#: ../usr/lib/usermanager/usermanager.py:88
 msgid "Users"
 msgstr "ユーザー"
 
-#: ../usr/lib/usermanager/usermanager.py:85
+#: ../usr/lib/usermanager/usermanager.py:89
 msgid "Groups"
 msgstr "グループ"
 
-#: ../usr/lib/usermanager/usermanager.py:87
+#: ../usr/lib/usermanager/usermanager.py:91
 msgid "User groups"
 msgstr "ユーザーグループ"
 
-#: ../usr/lib/usermanager/usermanager.py:89
+#: ../usr/lib/usermanager/usermanager.py:93
 msgid "Group accounts"
 msgstr "グループアカウント"
 
-#: ../usr/lib/usermanager/usermanager.py:91
+#: ../usr/lib/usermanager/usermanager.py:95
 msgid "User settings"
 msgstr "ユーザー設定"
 
-#: ../usr/lib/usermanager/usermanager.py:92
+#: ../usr/lib/usermanager/usermanager.py:96
 msgid "Details"
 msgstr "詳細"
 
-#: ../usr/lib/usermanager/usermanager.py:93
+#: ../usr/lib/usermanager/usermanager.py:97
 msgid "Status"
 msgstr "状態"
 
-#: ../usr/lib/usermanager/usermanager.py:94
+#: ../usr/lib/usermanager/usermanager.py:98
 msgid "Login name"
 msgstr "ログイン名"
 
-#: ../usr/lib/usermanager/usermanager.py:95
+#: ../usr/lib/usermanager/usermanager.py:99
 msgid "Real name"
 msgstr "名前"
 
-#: ../usr/lib/usermanager/usermanager.py:96
+#: ../usr/lib/usermanager/usermanager.py:100
 msgid "User ID"
 msgstr "ユーザー ID"
 
-#: ../usr/lib/usermanager/usermanager.py:97
+#: ../usr/lib/usermanager/usermanager.py:101
 msgid "Primary group"
 msgstr "主グループ"
 
-#: ../usr/lib/usermanager/usermanager.py:98
+#: ../usr/lib/usermanager/usermanager.py:102
 msgid "Home directory"
 msgstr "ホームフォルダ"
 
-#: ../usr/lib/usermanager/usermanager.py:99
+#: ../usr/lib/usermanager/usermanager.py:103
 msgid "Shell"
 msgstr "シェル"
 
-#: ../usr/lib/usermanager/usermanager.py:100
+#: ../usr/lib/usermanager/usermanager.py:104
 msgid "Enabled"
 msgstr "有効"
 
-#: ../usr/lib/usermanager/usermanager.py:101
+#: ../usr/lib/usermanager/usermanager.py:105
 msgid "Disabled"
 msgstr "無効"
 
-#: ../usr/lib/usermanager/usermanager.py:104
+#: ../usr/lib/usermanager/usermanager.py:108
 msgid "Privileges"
 msgstr "特権"
 
-#: ../usr/lib/usermanager/usermanager.py:106
+#: ../usr/lib/usermanager/usermanager.py:110
 msgid "Password"
 msgstr "パスワード"
 
-#: ../usr/lib/usermanager/usermanager.py:108
+#: ../usr/lib/usermanager/usermanager.py:112
 msgid "Last changed"
 msgstr "最終変更"
 
-#: ../usr/lib/usermanager/usermanager.py:109
+#: ../usr/lib/usermanager/usermanager.py:113
 msgid "Valid until"
 msgstr "有効"
 
-#: ../usr/lib/usermanager/usermanager.py:110
+#: ../usr/lib/usermanager/usermanager.py:114
 msgid "Always"
 msgstr "常に"
 
-#: ../usr/lib/usermanager/usermanager.py:111
+#: ../usr/lib/usermanager/usermanager.py:115
 msgid "Password aging"
 msgstr "パスワード老化"
 
-#: ../usr/lib/usermanager/usermanager.py:112
+#: ../usr/lib/usermanager/usermanager.py:116
 msgid "Require password after"
 msgstr "パスワード必須"
 
-#: ../usr/lib/usermanager/usermanager.py:113
+#: ../usr/lib/usermanager/usermanager.py:117
 msgid "Warn before password expires after"
 msgstr "パスワード期限切れ前に警告"
 
-#: ../usr/lib/usermanager/usermanager.py:114
+#: ../usr/lib/usermanager/usermanager.py:118
 msgid "Disable account when password expires after"
 msgstr "パスワード期限切れ後アカウントを無効にする"
 
-#: ../usr/lib/usermanager/usermanager.py:115
+#: ../usr/lib/usermanager/usermanager.py:119
 msgid "Enforce minimum password age"
 msgstr "パスワードの変更禁止期間"
 
-#: ../usr/lib/usermanager/usermanager.py:116
+#: ../usr/lib/usermanager/usermanager.py:120
 msgid "days"
 msgstr "日"
 
-#: ../usr/lib/usermanager/usermanager.py:121
+#: ../usr/lib/usermanager/usermanager.py:125
 msgid "Group settings"
 msgstr "グループ設定"
 
-#: ../usr/lib/usermanager/usermanager.py:122
+#: ../usr/lib/usermanager/usermanager.py:126
 msgid "Group name"
 msgstr "グループ名"
 
-#: ../usr/lib/usermanager/usermanager.py:123
+#: ../usr/lib/usermanager/usermanager.py:127
 msgid "Group ID"
 msgstr "グループ ID"
 
-#: ../usr/lib/usermanager/usermanager.py:124
+#: ../usr/lib/usermanager/usermanager.py:128
 msgid "Available accounts"
 msgstr "アカウントの有効"
 
-#: ../usr/lib/usermanager/usermanager.py:125
+#: ../usr/lib/usermanager/usermanager.py:129
 msgid "Selected accounts"
 msgstr "アカウントの設定"
 
-#: ../usr/lib/usermanager/usermanager.py:267
+#: ../usr/lib/usermanager/usermanager.py:271
 msgid "Remove user"
 msgstr "ユーザーの削除"
 
-#: ../usr/lib/usermanager/usermanager.py:269
+#: ../usr/lib/usermanager/usermanager.py:273
 #, python-format
 msgid ""
 "Are you sure you want to remove the following user:\n"
@@ -161,59 +162,59 @@ msgstr ""
 "\n"
 "'%(user)s'"
 
-#: ../usr/lib/usermanager/usermanager.py:275
+#: ../usr/lib/usermanager/usermanager.py:279
 #, python-format
 msgid "User successfully removed: %(user)s"
 msgstr "ユーザーを削除しました: %(user)s"
 
-#: ../usr/lib/usermanager/usermanager.py:279
+#: ../usr/lib/usermanager/usermanager.py:283
 #, python-format
 msgid "Could not remove user: %(user)s %(retmsg)s"
 msgstr "ユーザーを削除できません: %(user)s %(retmsg)s"
 
-#: ../usr/lib/usermanager/usermanager.py:281
+#: ../usr/lib/usermanager/usermanager.py:285
 msgid "You cannot remove the currently logged in user"
 msgstr "現在ログインしているユーザーを削除できません"
 
-#: ../usr/lib/usermanager/usermanager.py:284
+#: ../usr/lib/usermanager/usermanager.py:288
 msgid "Select user directory"
 msgstr "ユーザーフォルダの選択"
 
-#: ../usr/lib/usermanager/usermanager.py:366
+#: ../usr/lib/usermanager/usermanager.py:370
 msgid "You need to provide a primary group for a new user"
 msgstr "新規ユーザーへ主グループを割り当てる"
 
-#: ../usr/lib/usermanager/usermanager.py:395
+#: ../usr/lib/usermanager/usermanager.py:399
 msgid "You need to provide a password for a new user"
 msgstr "新規ユーザーへパスワードを設定する"
 
-#: ../usr/lib/usermanager/usermanager.py:398
+#: ../usr/lib/usermanager/usermanager.py:402
 msgid "You need to provide a name for a new user"
 msgstr "新規ユーザーへ名前を設定する"
 
-#: ../usr/lib/usermanager/usermanager.py:410
+#: ../usr/lib/usermanager/usermanager.py:414
 msgid "Save user settings"
 msgstr "ユーザー設定の保存"
 
-#: ../usr/lib/usermanager/usermanager.py:421
+#: ../usr/lib/usermanager/usermanager.py:425
 #, python-format
 msgid "User saved: %(user)s"
 msgstr "ユーザーを保存しました: %(user)s"
 
-#: ../usr/lib/usermanager/usermanager.py:431
+#: ../usr/lib/usermanager/usermanager.py:435
 #, python-format
 msgid "Nothing was changed on user: %(user)s"
 msgstr "ユーザーの変更がありませんでした: %(user)s"
 
-#: ../usr/lib/usermanager/usermanager.py:486
+#: ../usr/lib/usermanager/usermanager.py:490
 msgid "Select user image"
 msgstr "ユーザー画像を選択"
 
-#: ../usr/lib/usermanager/usermanager.py:556
+#: ../usr/lib/usermanager/usermanager.py:560
 msgid "Remove group"
 msgstr "グループの削除"
 
-#: ../usr/lib/usermanager/usermanager.py:558
+#: ../usr/lib/usermanager/usermanager.py:562
 #, python-format
 msgid ""
 "Are you sure you want to remove the following group:\n"
@@ -224,39 +225,39 @@ msgstr ""
 "\n"
 "'%(group)s'"
 
-#: ../usr/lib/usermanager/usermanager.py:563
+#: ../usr/lib/usermanager/usermanager.py:567
 #, python-format
 msgid "Group successfully removed: %(group)s"
 msgstr "グループを削除しました %(group)s"
 
-#: ../usr/lib/usermanager/usermanager.py:567
+#: ../usr/lib/usermanager/usermanager.py:571
 #, python-format
 msgid "Could not remove group: %(group)s %(retmsg)s"
 msgstr "グループを削除できませんでした: %(group)s %(retmsg)s"
 
-#: ../usr/lib/usermanager/usermanager.py:569
+#: ../usr/lib/usermanager/usermanager.py:573
 msgid "You cannot remove the currently logged in user's primary group"
 msgstr "ログインしているユーザーの主グループは削除できません"
 
-#: ../usr/lib/usermanager/usermanager.py:587
+#: ../usr/lib/usermanager/usermanager.py:591
 msgid "Remove account"
 msgstr "アカウントの削除"
 
-#: ../usr/lib/usermanager/usermanager.py:587
+#: ../usr/lib/usermanager/usermanager.py:591
 msgid "You cannot remove an account from its own primary group"
 msgstr "主グループからアカウントを削除できません"
 
-#: ../usr/lib/usermanager/user.py:254
+#: ../usr/lib/usermanager/user.py:258
 #, python-format
 msgid "Cannot remove group '%(group)s': not empty."
 msgstr "グループ '%(group)s' を削除できません: 存在しません"
 
-#: ../usr/lib/usermanager/user.py:256 ../usr/lib/usermanager/user.py:328
+#: ../usr/lib/usermanager/user.py:260 ../usr/lib/usermanager/user.py:332
 #, python-format
 msgid "The command '%(cmd)s' returned error code: %(ret)d."
 msgstr "コマンド '%(cmd)s' はエラーを返しました: %(ret)d"
 
-#: ../usr/lib/usermanager/user.py:326
+#: ../usr/lib/usermanager/user.py:330
 #, python-format
 msgid ""
 "Cannot remove user '%(user)s': processes started by user are still running."
@@ -266,9 +267,9 @@ msgstr ""
 #: ../usr/share/kde4/services/kcm_usermanager.desktop.in.h:1
 #: ../usr/share/applications/usermanager.desktop.in.h:2
 msgid "User management"
-msgstr ""
+msgstr "ユーザーマネージャー"
 
 #: ../usr/share/kde4/services/kcm_usermanager.desktop.in.h:2
 #: ../usr/share/applications/usermanager.desktop.in.h:1
 msgid "Manage users"
-msgstr ""
+msgstr "ユーザーの管理"
