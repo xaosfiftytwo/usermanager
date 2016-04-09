@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
+# Butterfly <gokhanlnx@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: usermanager\n"
@@ -10,9 +11,9 @@ msgstr ""
 "POT-Creation-Date: 2016-04-09 14:24+0200\n"
 "PO-Revision-Date: 2016-04-09 11:41+0000\n"
 "Last-Translator: Arjen Balfoort <schoelje@solydxk.com>\n"
-"Language-Team: French (http://www.transifex.com/solydxk/usermanager/language/"
-"fr/)\n"
-"Language: fr\n"
+"Language-Team: Turkish (http://www.transifex.com/solydxk/usermanager/"
+"language/tr/)\n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,7 +21,7 @@ msgstr ""
 
 #: ../usr/lib/usermanager/usermanager.py:88
 msgid "User manager"
-msgstr "User manager"
+msgstr "Kullanıcı yöneticisi"
 
 #: ../usr/lib/usermanager/usermanager.py:89
 msgid "Show system users"
@@ -28,131 +29,131 @@ msgstr ""
 
 #: ../usr/lib/usermanager/usermanager.py:90
 msgid "Users"
-msgstr "Utilisateurs"
+msgstr "Kullanıcılar"
 
 #: ../usr/lib/usermanager/usermanager.py:91
 msgid "Groups"
-msgstr "Groupes"
+msgstr "Gruplar"
 
 #: ../usr/lib/usermanager/usermanager.py:93
 msgid "User groups"
-msgstr "Groupes de l'utilisateur"
+msgstr "Kullanıcı grupları"
 
 #: ../usr/lib/usermanager/usermanager.py:95
 msgid "Group accounts"
-msgstr "Comptes du groupe"
+msgstr "Grup hesapları"
 
 #: ../usr/lib/usermanager/usermanager.py:97
 msgid "User settings"
-msgstr "Paramètres utilisateur"
+msgstr "Kullanıcı ayarları"
 
 #: ../usr/lib/usermanager/usermanager.py:98
 msgid "Details"
-msgstr "Détails"
+msgstr "Ayrıntılar"
 
 #: ../usr/lib/usermanager/usermanager.py:99
 msgid "Status"
-msgstr "Status"
+msgstr "Durum"
 
 #: ../usr/lib/usermanager/usermanager.py:100
 msgid "Login name"
-msgstr "identifiant"
+msgstr "Oturum giriş adı"
 
 #: ../usr/lib/usermanager/usermanager.py:101
 msgid "Real name"
-msgstr "Nom"
+msgstr "Gerçek isim"
 
 #: ../usr/lib/usermanager/usermanager.py:102
 msgid "User ID"
-msgstr "ID utilisateur"
+msgstr "Kullanıcı ID"
 
 #: ../usr/lib/usermanager/usermanager.py:103
 msgid "Primary group"
-msgstr "Groupe principal"
+msgstr "Birincil grup"
 
 #: ../usr/lib/usermanager/usermanager.py:104
 msgid "Home directory"
-msgstr "Répertoire utilisateur"
+msgstr "Ev dizini"
 
 #: ../usr/lib/usermanager/usermanager.py:105
 msgid "Shell"
-msgstr "Shell"
+msgstr "Kabuk"
 
 #: ../usr/lib/usermanager/usermanager.py:106
 msgid "Enabled"
-msgstr "Activé"
+msgstr "Etkin"
 
 #: ../usr/lib/usermanager/usermanager.py:107
 msgid "Disabled"
-msgstr "Désactivé"
+msgstr "Pasif"
 
 #: ../usr/lib/usermanager/usermanager.py:110
 msgid "Privileges"
-msgstr "Privilèges"
+msgstr "Haklar"
 
 #: ../usr/lib/usermanager/usermanager.py:112
 msgid "Password"
-msgstr "Mot de passe"
+msgstr "Şifre"
 
 #: ../usr/lib/usermanager/usermanager.py:114
 msgid "Last changed"
-msgstr "Dernière modification"
+msgstr "Son değiştirme"
 
 #: ../usr/lib/usermanager/usermanager.py:115
 msgid "Valid until"
-msgstr "valide jusqu'au"
+msgstr "Geçerlilik süresi"
 
 #: ../usr/lib/usermanager/usermanager.py:116
 msgid "Always"
-msgstr "Toujours"
+msgstr "Daima"
 
 #: ../usr/lib/usermanager/usermanager.py:117
 msgid "Password aging"
-msgstr "Expiration du mot de passe"
+msgstr "Şifre yaşı"
 
 #: ../usr/lib/usermanager/usermanager.py:118
 msgid "Require password after"
-msgstr "Demande du mot de passe après"
+msgstr "Ardından şifre iste"
 
 #: ../usr/lib/usermanager/usermanager.py:119
 msgid "Warn before password expires after"
-msgstr "Avertir avant expiration du mot de passe après"
+msgstr "Şifre dolum süresinden önce uyar"
 
 #: ../usr/lib/usermanager/usermanager.py:120
 msgid "Disable account when password expires after"
-msgstr "Desactiver le compte quand le mot de passe expire après"
+msgstr "Şifre süresi dolduktan sonra hesabı pasifleştir"
 
 #: ../usr/lib/usermanager/usermanager.py:121
 msgid "Enforce minimum password age"
-msgstr "Imposer un âge minimum au mot de passe"
+msgstr "Minumum şifre yaşına zorla"
 
 #: ../usr/lib/usermanager/usermanager.py:122
 msgid "days"
-msgstr "jours"
+msgstr "gün"
 
 #: ../usr/lib/usermanager/usermanager.py:127
 msgid "Group settings"
-msgstr "Paramètres du groupe"
+msgstr "Grup ayarları"
 
 #: ../usr/lib/usermanager/usermanager.py:128
 msgid "Group name"
-msgstr "Nom du groupe"
+msgstr "Grup ismi"
 
 #: ../usr/lib/usermanager/usermanager.py:129
 msgid "Group ID"
-msgstr "Identifiant du groupe"
+msgstr "Grup ID"
 
 #: ../usr/lib/usermanager/usermanager.py:130
 msgid "Available accounts"
-msgstr "Comptes disponibles"
+msgstr "Kullanılabilir hesaplar"
 
 #: ../usr/lib/usermanager/usermanager.py:131
 msgid "Selected accounts"
-msgstr "Comptes sélectionnés"
+msgstr "Seçilen hesaplar"
 
 #: ../usr/lib/usermanager/usermanager.py:273
 msgid "Remove user"
-msgstr "Supprimer l'utilisateur"
+msgstr "Kullanıcıyı sil"
 
 #: ../usr/lib/usermanager/usermanager.py:275
 #, python-format
@@ -161,61 +162,61 @@ msgid ""
 "\n"
 "'%(user)s'"
 msgstr ""
-"Êtes-vous certain de vouloir supprimer l'utilisateur:\n"
+"Aşağıdaki kullanıcıyı silmek istediğinize emin misiniz?\n"
 "\n"
 "'%(user)s'"
 
 #: ../usr/lib/usermanager/usermanager.py:281
 #, python-format
 msgid "User successfully removed: %(user)s"
-msgstr "Utilisateur supprimé: %(user)s"
+msgstr "Kullanıcı başarıyla silindi: %(user)s"
 
 #: ../usr/lib/usermanager/usermanager.py:285
 #, python-format
 msgid "Could not remove user: %(user)s %(retmsg)s"
-msgstr "Impossible de supprimer l'utilisateur: %(user)s %(retmsg)s"
+msgstr "Kullanıcı silinemedi: %(user)s %(retmsg)s"
 
 #: ../usr/lib/usermanager/usermanager.py:287
 msgid "You cannot remove the currently logged in user"
-msgstr "Vous ne pouvez pas supprimer l'utilisateur actuellement connecté"
+msgstr "Oturum açılmış kullanıcı hesabını silemezsiniz"
 
 #: ../usr/lib/usermanager/usermanager.py:293
 msgid "Select user directory"
-msgstr "Sélectionnez le répertoire utilisateur"
+msgstr "Kullanıcı dizini seç"
 
 #: ../usr/lib/usermanager/usermanager.py:375
 msgid "You need to provide a primary group for a new user"
-msgstr "Vous devez définir un groupe principal pour tout nouvel utilisateur"
+msgstr "Yeni bir kullanıcı için birincil grup oluşturmak gerekiyor"
 
 #: ../usr/lib/usermanager/usermanager.py:404
 msgid "You need to provide a password for a new user"
-msgstr "Vous devez définir un mot de passe pour tout nouvel utilisateur"
+msgstr "Yeni bir kullanıcı için bir şife oluşturmak gerekiyor"
 
 #: ../usr/lib/usermanager/usermanager.py:407
 msgid "You need to provide a name for a new user"
-msgstr "Vous devez définir le nom de tout nouvel utilisateur"
+msgstr "Yeni bir kullanıcı için bir isim oluşturmak gerekiyor"
 
 #: ../usr/lib/usermanager/usermanager.py:419
 msgid "Save user settings"
-msgstr "Enregistrer les paramètres utilisateur"
+msgstr "Kullanıcı ayarlarını kaydet"
 
 #: ../usr/lib/usermanager/usermanager.py:430
 #, python-format
 msgid "User saved: %(user)s"
-msgstr "Utilisateur enregistré: %(user)s"
+msgstr "Kullanıcı kaydedildi: %(user)s"
 
 #: ../usr/lib/usermanager/usermanager.py:440
 #, python-format
 msgid "Nothing was changed on user: %(user)s"
-msgstr "Aucun changement pour l'utilisateur: %(user)s"
+msgstr "Kullanıcı için bir şey değiştirlmedi: %(user)s"
 
 #: ../usr/lib/usermanager/usermanager.py:495
 msgid "Select user image"
-msgstr "Choisir l'image de l'utilisateur"
+msgstr "Kullanıcı resmini seçin"
 
 #: ../usr/lib/usermanager/usermanager.py:565
 msgid "Remove group"
-msgstr "Supprimer le groupe"
+msgstr "Grup sil"
 
 #: ../usr/lib/usermanager/usermanager.py:567
 #, python-format
@@ -224,58 +225,56 @@ msgid ""
 "\n"
 "'%(group)s'"
 msgstr ""
-"Êtes-vous certain de vouloir supprimer le groupe suivant:\n"
+"Aşağıdaki grubu silmek istediğinize emin misiniz?\n"
 "\n"
 "'%(group)s'"
 
 #: ../usr/lib/usermanager/usermanager.py:572
 #, python-format
 msgid "Group successfully removed: %(group)s"
-msgstr "Groupe supprimé: %(group)s"
+msgstr "Grup başarıyla silindi: %(group)s"
 
 #: ../usr/lib/usermanager/usermanager.py:576
 #, python-format
 msgid "Could not remove group: %(group)s %(retmsg)s"
-msgstr "Impossible de supprimer le groupe: %(group)s %(retmsg)s"
+msgstr "Grup silinemedi: %(group)s %(retmsg)s"
 
 #: ../usr/lib/usermanager/usermanager.py:578
 msgid "You cannot remove the currently logged in user's primary group"
-msgstr ""
-"Vous ne pouvez pas supprimer un groupe appartenant au groupe primaire de "
-"l'utilisateur actuel"
+msgstr "Oturum açmış kullanıcının birincil grubunu silemezsiniz."
 
 #: ../usr/lib/usermanager/usermanager.py:596
 msgid "Remove account"
-msgstr "Suppression du compte"
+msgstr "Hesabı sil"
 
 #: ../usr/lib/usermanager/usermanager.py:596
 msgid "You cannot remove an account from its own primary group"
-msgstr "Vous ne pouvez pas supprimer un compte de son propre groupe principal"
+msgstr "Kendi birincil gurubundan bir hesap silemezsiniz."
 
 #: ../usr/lib/usermanager/user.py:260
 #, python-format
 msgid "Cannot remove group '%(group)s': not empty."
-msgstr "Impossible de supprimer le groupe '%(group)s': non vide."
+msgstr "Grup '%(group)s' silinemedi: boş değil."
 
 #: ../usr/lib/usermanager/user.py:262 ../usr/lib/usermanager/user.py:334
 #, python-format
 msgid "The command '%(cmd)s' returned error code: %(ret)d."
-msgstr "La commande '%(cmd)s' renvoie un code d'erreur: %(ret)d."
+msgstr "Komut '%(cmd)s' hata kodu döndürdü: %(ret)d."
 
 #: ../usr/lib/usermanager/user.py:332
 #, python-format
 msgid ""
 "Cannot remove user '%(user)s': processes started by user are still running."
 msgstr ""
-"Impossible de supprimer l'utilisateur '%(user)s': des processus sont en "
-"cours d'exécution."
+"Kullanıcı '%(user)s' silinemedi: kullanıcı tarafından başlatılmış işlemler "
+"hala sürüyor."
 
 #: ../usr/share/kde4/services/kcm_usermanager.desktop.in.h:1
 #: ../usr/share/applications/usermanager.desktop.in.h:2
 msgid "User management"
-msgstr "Gestion des utilisateurs"
+msgstr "Kullanıcı yönetimi"
 
 #: ../usr/share/kde4/services/kcm_usermanager.desktop.in.h:2
 #: ../usr/share/applications/usermanager.desktop.in.h:1
 msgid "Manage users"
-msgstr "Gestion des droits des utilisateurs"
+msgstr "Kullanıcıları yönet"

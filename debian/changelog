@@ -1,3 +1,9 @@
+usermanager (0.8.0) debian; urgency=low
+
+  * Add show system users
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Sat, 09 Apr 2016 13:38:19 +0200
+
 usermanager (0.7.9) debian; urgency=low
 
   * Updated translations

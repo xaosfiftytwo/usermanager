@@ -77,32 +77,34 @@ gettext.textdomain('usermanager')
 #grp.getgrall()
 #Return a list of all available group entries, in arbitrary order.
 
+
 class User(object):
 
     def __init__(self, loggerObject=None):
         self.log = loggerObject
 
-    def getAllUsersInfoDict(self, homeUsers=True):
+    def getAllUsersInfoDict(self, include_system_users=False):
         users = []
         pwds = self.sortListOnColumn(pwd.getpwall(), [0])
         for p in pwds:
             # Check UID range when returning non-system users only
             addUser = True
-            if homeUsers:
+            if not include_system_users:
                 if p.pw_uid < 1000 or p.pw_uid > 1500:
                     addUser = False
             if addUser:
-                users.append({ 'user': p, 'groups': self.getUserGroups(p.pw_name), 'prgrp': self.getUserPrimaryGroupName(p.pw_name), 'pwd': self.getUserPasswordInfoDict(p.pw_name), 'face': self.getUserFacePath(p.pw_name) })
+                users.append({'user': p,
+                              'groups': self.getUserGroups(p.pw_name),
+                              'prgrp': self.getUserPrimaryGroupName(p.pw_name),
+                              'pwd': self.getUserPasswordInfoDict(p.pw_name),
+                              'face': self.getUserFacePath(p.pw_name)})
         return users
 
     def getUserGroups(self, name):
-        userGroups = []
-        for g in grp.getgrall():
-            for u in g.gr_mem:
-                if u == name:
-                    userGroups.append(g.gr_name)
-        userGroups.sort()
-        return userGroups
+        groups = [g.gr_name for g in grp.getgrall() if name in g.gr_mem]
+        gid = pwd.getpwnam(name).pw_gid
+        groups.append(grp.getgrgid(gid).gr_name)
+        return groups
 
     def getGroupAccounts(self, group):
         groupAccounts = []

@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: usermanager\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-18 17:50+0100\n"
-"PO-Revision-Date: 2016-01-10 20:51+0000\n"
-"Last-Translator: Anders Dalen <anders@andersdalen.no>\n"
+"POT-Creation-Date: 2016-04-09 14:24+0200\n"
+"PO-Revision-Date: 2016-04-09 11:41+0000\n"
+"Last-Translator: Arjen Balfoort <schoelje@solydxk.com>\n"
 "Language-Team: Norwegian Bokmål (http://www.transifex.com/solydxk/"
 "usermanager/language/nb/)\n"
 "Language: nb\n"
@@ -18,139 +18,143 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../usr/lib/usermanager/usermanager.py:87
+#: ../usr/lib/usermanager/usermanager.py:88
 msgid "User manager"
 msgstr "Brukerbehandler"
 
-#: ../usr/lib/usermanager/usermanager.py:88
+#: ../usr/lib/usermanager/usermanager.py:89
+msgid "Show system users"
+msgstr ""
+
+#: ../usr/lib/usermanager/usermanager.py:90
 msgid "Users"
 msgstr "Brukere"
 
-#: ../usr/lib/usermanager/usermanager.py:89
+#: ../usr/lib/usermanager/usermanager.py:91
 msgid "Groups"
 msgstr "Grupper"
 
-#: ../usr/lib/usermanager/usermanager.py:91
+#: ../usr/lib/usermanager/usermanager.py:93
 msgid "User groups"
 msgstr "Brukergrupper"
 
-#: ../usr/lib/usermanager/usermanager.py:93
+#: ../usr/lib/usermanager/usermanager.py:95
 msgid "Group accounts"
 msgstr "Gruppekonti"
 
-#: ../usr/lib/usermanager/usermanager.py:95
+#: ../usr/lib/usermanager/usermanager.py:97
 msgid "User settings"
 msgstr "Brukerinstillinger"
 
-#: ../usr/lib/usermanager/usermanager.py:96
+#: ../usr/lib/usermanager/usermanager.py:98
 msgid "Details"
 msgstr "Detaljer"
 
-#: ../usr/lib/usermanager/usermanager.py:97
+#: ../usr/lib/usermanager/usermanager.py:99
 msgid "Status"
 msgstr "Status"
 
-#: ../usr/lib/usermanager/usermanager.py:98
+#: ../usr/lib/usermanager/usermanager.py:100
 msgid "Login name"
 msgstr "Innloggingsnavn"
 
-#: ../usr/lib/usermanager/usermanager.py:99
+#: ../usr/lib/usermanager/usermanager.py:101
 msgid "Real name"
 msgstr "Virkelig navn"
 
-#: ../usr/lib/usermanager/usermanager.py:100
+#: ../usr/lib/usermanager/usermanager.py:102
 msgid "User ID"
 msgstr "BrukerID"
 
-#: ../usr/lib/usermanager/usermanager.py:101
+#: ../usr/lib/usermanager/usermanager.py:103
 msgid "Primary group"
 msgstr "Primærgruppe"
 
-#: ../usr/lib/usermanager/usermanager.py:102
+#: ../usr/lib/usermanager/usermanager.py:104
 msgid "Home directory"
 msgstr "Hjemmekatalog"
 
-#: ../usr/lib/usermanager/usermanager.py:103
+#: ../usr/lib/usermanager/usermanager.py:105
 msgid "Shell"
 msgstr "Skall"
 
-#: ../usr/lib/usermanager/usermanager.py:104
+#: ../usr/lib/usermanager/usermanager.py:106
 msgid "Enabled"
 msgstr "Aktivert"
 
-#: ../usr/lib/usermanager/usermanager.py:105
+#: ../usr/lib/usermanager/usermanager.py:107
 msgid "Disabled"
 msgstr "Deaktivert"
 
-#: ../usr/lib/usermanager/usermanager.py:108
+#: ../usr/lib/usermanager/usermanager.py:110
 msgid "Privileges"
 msgstr "Privilegier"
 
-#: ../usr/lib/usermanager/usermanager.py:110
+#: ../usr/lib/usermanager/usermanager.py:112
 msgid "Password"
 msgstr "Passord"
 
-#: ../usr/lib/usermanager/usermanager.py:112
+#: ../usr/lib/usermanager/usermanager.py:114
 msgid "Last changed"
 msgstr "Sist endret"
 
-#: ../usr/lib/usermanager/usermanager.py:113
+#: ../usr/lib/usermanager/usermanager.py:115
 msgid "Valid until"
 msgstr "Gyldig til"
 
-#: ../usr/lib/usermanager/usermanager.py:114
+#: ../usr/lib/usermanager/usermanager.py:116
 msgid "Always"
 msgstr "Alltid"
 
-#: ../usr/lib/usermanager/usermanager.py:115
+#: ../usr/lib/usermanager/usermanager.py:117
 msgid "Password aging"
 msgstr "Passord aldring"
 
-#: ../usr/lib/usermanager/usermanager.py:116
+#: ../usr/lib/usermanager/usermanager.py:118
 msgid "Require password after"
 msgstr "Krev passord etter"
 
-#: ../usr/lib/usermanager/usermanager.py:117
+#: ../usr/lib/usermanager/usermanager.py:119
 msgid "Warn before password expires after"
 msgstr "Advar før passordet utløper etter"
 
-#: ../usr/lib/usermanager/usermanager.py:118
+#: ../usr/lib/usermanager/usermanager.py:120
 msgid "Disable account when password expires after"
 msgstr "Deaktiver kontoen når passordet utløper etter"
 
-#: ../usr/lib/usermanager/usermanager.py:119
+#: ../usr/lib/usermanager/usermanager.py:121
 msgid "Enforce minimum password age"
 msgstr "Krev minimum passordalder"
 
-#: ../usr/lib/usermanager/usermanager.py:120
+#: ../usr/lib/usermanager/usermanager.py:122
 msgid "days"
 msgstr "Dager"
 
-#: ../usr/lib/usermanager/usermanager.py:125
+#: ../usr/lib/usermanager/usermanager.py:127
 msgid "Group settings"
 msgstr "Gruppeinstillinger"
 
-#: ../usr/lib/usermanager/usermanager.py:126
+#: ../usr/lib/usermanager/usermanager.py:128
 msgid "Group name"
 msgstr "Gruppenavn"
 
-#: ../usr/lib/usermanager/usermanager.py:127
+#: ../usr/lib/usermanager/usermanager.py:129
 msgid "Group ID"
 msgstr "GruppeID"
 
-#: ../usr/lib/usermanager/usermanager.py:128
+#: ../usr/lib/usermanager/usermanager.py:130
 msgid "Available accounts"
 msgstr "Tilgjengelige konti"
 
-#: ../usr/lib/usermanager/usermanager.py:129
+#: ../usr/lib/usermanager/usermanager.py:131
 msgid "Selected accounts"
 msgstr "Valgte konti"
 
-#: ../usr/lib/usermanager/usermanager.py:271
+#: ../usr/lib/usermanager/usermanager.py:273
 msgid "Remove user"
 msgstr "Fjern bruker"
 
-#: ../usr/lib/usermanager/usermanager.py:273
+#: ../usr/lib/usermanager/usermanager.py:275
 #, python-format
 msgid ""
 "Are you sure you want to remove the following user:\n"
@@ -161,59 +165,59 @@ msgstr ""
 "\n"
 "'%(user)s'"
 
-#: ../usr/lib/usermanager/usermanager.py:279
+#: ../usr/lib/usermanager/usermanager.py:281
 #, python-format
 msgid "User successfully removed: %(user)s"
 msgstr "Bruker vellykket fjernet: %(user)s"
 
-#: ../usr/lib/usermanager/usermanager.py:283
+#: ../usr/lib/usermanager/usermanager.py:285
 #, python-format
 msgid "Could not remove user: %(user)s %(retmsg)s"
 msgstr "Kunne ikke fjerne bruker: %(user)s %(retmsg)s"
 
-#: ../usr/lib/usermanager/usermanager.py:285
+#: ../usr/lib/usermanager/usermanager.py:287
 msgid "You cannot remove the currently logged in user"
 msgstr "Du kan ikke fjerne nåværende innloggede bruker"
 
-#: ../usr/lib/usermanager/usermanager.py:288
+#: ../usr/lib/usermanager/usermanager.py:293
 msgid "Select user directory"
 msgstr "Velg katalog for bruker"
 
-#: ../usr/lib/usermanager/usermanager.py:370
+#: ../usr/lib/usermanager/usermanager.py:375
 msgid "You need to provide a primary group for a new user"
 msgstr "Du trenger å angi en primærgruppe for en ny bruker"
 
-#: ../usr/lib/usermanager/usermanager.py:399
+#: ../usr/lib/usermanager/usermanager.py:404
 msgid "You need to provide a password for a new user"
 msgstr "Du trenger å angi et passord for en ny bruker"
 
-#: ../usr/lib/usermanager/usermanager.py:402
+#: ../usr/lib/usermanager/usermanager.py:407
 msgid "You need to provide a name for a new user"
 msgstr "Du trenger å angi et navn for en ny bruker"
 
-#: ../usr/lib/usermanager/usermanager.py:414
+#: ../usr/lib/usermanager/usermanager.py:419
 msgid "Save user settings"
 msgstr "Lagre brukerinstillinger"
 
-#: ../usr/lib/usermanager/usermanager.py:425
+#: ../usr/lib/usermanager/usermanager.py:430
 #, python-format
 msgid "User saved: %(user)s"
 msgstr "Bruker lagret: %(user)s"
 
-#: ../usr/lib/usermanager/usermanager.py:435
+#: ../usr/lib/usermanager/usermanager.py:440
 #, python-format
 msgid "Nothing was changed on user: %(user)s"
 msgstr "Ingenting ble endret på bruker: %(user)s"
 
-#: ../usr/lib/usermanager/usermanager.py:490
+#: ../usr/lib/usermanager/usermanager.py:495
 msgid "Select user image"
 msgstr "Velg bilde for bruker"
 
-#: ../usr/lib/usermanager/usermanager.py:560
+#: ../usr/lib/usermanager/usermanager.py:565
 msgid "Remove group"
 msgstr "Fjern gruppe"
 
-#: ../usr/lib/usermanager/usermanager.py:562
+#: ../usr/lib/usermanager/usermanager.py:567
 #, python-format
 msgid ""
 "Are you sure you want to remove the following group:\n"
@@ -224,39 +228,39 @@ msgstr ""
 "\n"
 "'%(group)s'"
 
-#: ../usr/lib/usermanager/usermanager.py:567
+#: ../usr/lib/usermanager/usermanager.py:572
 #, python-format
 msgid "Group successfully removed: %(group)s"
 msgstr "Grouppen ble vellykket fjernet: %(group)s"
 
-#: ../usr/lib/usermanager/usermanager.py:571
+#: ../usr/lib/usermanager/usermanager.py:576
 #, python-format
 msgid "Could not remove group: %(group)s %(retmsg)s"
 msgstr "Kunne ikke fjerne gruppe: %(group)s %(retmsg)s"
 
-#: ../usr/lib/usermanager/usermanager.py:573
+#: ../usr/lib/usermanager/usermanager.py:578
 msgid "You cannot remove the currently logged in user's primary group"
 msgstr "Du kan ikke fjerne nåværende innloggede brukers primærkonto"
 
-#: ../usr/lib/usermanager/usermanager.py:591
+#: ../usr/lib/usermanager/usermanager.py:596
 msgid "Remove account"
 msgstr "Fjern konto"
 
-#: ../usr/lib/usermanager/usermanager.py:591
+#: ../usr/lib/usermanager/usermanager.py:596
 msgid "You cannot remove an account from its own primary group"
 msgstr "Du kan ikke fjerne en konto fra dens primærgruppe"
 
-#: ../usr/lib/usermanager/user.py:258
+#: ../usr/lib/usermanager/user.py:260
 #, python-format
 msgid "Cannot remove group '%(group)s': not empty."
 msgstr "Kan ikke fjerne gruppe '%(group)s': den er ikke tom."
 
-#: ../usr/lib/usermanager/user.py:260 ../usr/lib/usermanager/user.py:332
+#: ../usr/lib/usermanager/user.py:262 ../usr/lib/usermanager/user.py:334
 #, python-format
 msgid "The command '%(cmd)s' returned error code: %(ret)d."
 msgstr "Kommandoen '%(cmd)s' returnerte feilkoden: %(ret)d."
 
-#: ../usr/lib/usermanager/user.py:330
+#: ../usr/lib/usermanager/user.py:332
 #, python-format
 msgid ""
 "Cannot remove user '%(user)s': processes started by user are still running."

@@ -46,6 +46,7 @@ class UserManager(object):
         self.window = go('usermanagerWindow')
         self.tvUsersMain = go('tvUsersMain')
         self.tvUserGroupsMain = go('tvUserGroupsMain')
+        self.chkShowSystemUsers = go('chkShowSystemUsers')
         # User window objects
         self.windowUser = go('usermanagerUserWindow')
         self.txtLoginName = go('txtLoginName')
@@ -85,6 +86,7 @@ class UserManager(object):
 
         # Main window translations
         self.window.set_title(_("User manager"))
+        self.chkShowSystemUsers.set_label(_("Show system users"))
         go('lblUsersTab').set_text(_("Users"))
         go('lblGroupsTab').set_text(_("Groups"))
         go('lblUsersMain').set_text(go('lblUsersTab').get_text())
@@ -284,6 +286,9 @@ class UserManager(object):
             else:
                 self.showError(title, _("You cannot remove the currently logged in user"), self.window)
 
+    def on_chkShowSystemUsers_toggled(self, widget):
+        self.refreshData()
+
     def on_btnBrowse_clicked(self, widget):
         directory = SelectDirectoryDialog(_('Select user directory'), self.txtHomeDirectory.get_text(), self.windowUser).show()
         if directory is not None:
@@ -452,7 +457,7 @@ class UserManager(object):
 
     def getUsers(self):
         self.users = []
-        self.usersInfo = self.usr.getAllUsersInfoDict()
+        self.usersInfo = self.usr.getAllUsersInfoDict(self.chkShowSystemUsers.get_active())
         for ui in self.usersInfo:
             self.users.append([ui['face'], ui['user'].pw_name])
 
