@@ -14,6 +14,7 @@ from shutil import copy
 from datetime import datetime, timedelta
 from gi.repository import GdkPixbuf, Gtk
 from os.path import join, exists
+from functions import get_config_dict
 
 # i18n: http://docs.python.org/3/library/gettext.html
 import gettext
@@ -82,6 +83,13 @@ class User(object):
 
     def __init__(self, loggerObject=None):
         self.log = loggerObject
+        conf = "/etc/adduser.conf"
+        # Set conf variables
+        config = get_config_dict(conf)
+        self.first_uid = int(config.get('FIRST_UID', 1000))
+        self.last_uid = int(config.get('LAST_UID', 29999))
+        self.first_gid = int(config.get('FIRST_GID', 1000))
+        self.last_gid = int(config.get('LAST_GID', 29999))
 
     def getAllUsersInfoDict(self, include_system_users=False):
         users = []
@@ -90,7 +98,7 @@ class User(object):
             # Check UID range when returning non-system users only
             addUser = True
             if not include_system_users:
-                if p.pw_uid < 1000 or p.pw_uid > 1500:
+                if p.pw_uid < self.first_uid or p.pw_uid > self.last_uid:
                     addUser = False
             if addUser:
                 users.append({'user': p,
@@ -133,13 +141,13 @@ class User(object):
     def doesGroupExist(self, group):
         return group in self.getGroups()
 
-    def getUsers(self, homeUsers=True):
+    def getUsers(self, include_system_users=False):
         users = []
         pwds = pwd.getpwall()
         for p in pwds:
             addUser = True
-            if homeUsers:
-                if p.pw_uid < 1000 or p.pw_uid > 1500:
+            if not include_system_users:
+                if p.pw_uid < self.first_uid or p.pw_uid > self.last_uid:
                     addUser = False
             if addUser:
                 users.append(p.pw_name)
@@ -155,62 +163,76 @@ class User(object):
         return userName
 
     def doesUserExist(self, user):
-        return user in self.getUsers(False)
+        return user in self.getUsers(True)
 
     def getUserPrimaryGroupName(self, name):
         p = pwd.getpwnam(name)
         return grp.getgrgid(p.pw_gid).gr_name
 
-    def getUserHomeDir(self, name=None):
-        if name is None:
-            name = pwd.getpwuid(os.getuid()).pw_name
+    def getUserHomeDir(self, name):
         return pwd.getpwnam(name).pw_dir
 
-    def getUserFacePath(self, name=None):
+    def getUserFacePath(self, name):
         face = None
-        homeDir = self.getUserHomeDir(name)
-        if exists(homeDir) and "/home" in homeDir:
-            # Check for face icon
-            if exists(join(homeDir, ".face")):
-                face = join(homeDir, ".face")
-            elif exists(join(homeDir, ".face.icon")):
-                face = join(homeDir, ".face.icon")
+        if not self.isSystemUser(name):
+            homeDir = self.getUserHomeDir(name)
+            if exists(homeDir):
+                # Check for face icon
+                if exists(join(homeDir, ".face")):
+                    face = join(homeDir, ".face")
+                elif exists(join(homeDir, ".face.icon")):
+                    face = join(homeDir, ".face.icon")
 
-            if face is None:
-                genericFace = '/usr/share/pixmaps/faces/user-generic.png'
-                kdeFace = '/usr/share/kde4/apps/kdm/faces/.default.face.icon'
-                if exists(genericFace):
-                    face = genericFace
-                elif exists(kdeFace):
-                    face = kdeFace
-                else:
-                    defaultTheme = Gtk.IconTheme.get_default()
-                    iconInfo = Gtk.IconTheme.lookup_icon(defaultTheme, "user-identity", 64, Gtk.IconLookupFlags.NO_SVG)
-                    if iconInfo is not None:
-                        face = iconInfo.get_filename()
-                if face is not None:
-                    copy(face, join(homeDir, ".face"))
+                if face is None:
+                    genericFace = '/usr/share/pixmaps/faces/user-generic.png'
+                    kdeFace = '/usr/share/kde4/apps/kdm/faces/.default.face.icon'
+                    if exists(genericFace):
+                        face = genericFace
+                    elif exists(kdeFace):
+                        face = kdeFace
+                    else:
+                        defaultTheme = Gtk.IconTheme.get_default()
+                        iconInfo = Gtk.IconTheme.lookup_icon(defaultTheme, "user-identity", 64, Gtk.IconLookupFlags.NO_SVG)
+                        if iconInfo is not None:
+                            face = iconInfo.get_filename()
+                    if face is not None:
+                        try:
+                            copy(face, join(homeDir, ".face"))
+                        except:
+                            # Best effort
+                            face = None
         return face
+
+    def isSystemUser(self, name):
+        pwds = pwd.getpwall()
+        for p in pwds:
+            if p.pw_name == name:
+                if p.pw_uid < self.first_uid or p.pw_uid > self.last_uid:
+                    return True
+        return False
 
     def getUserFacePixbuf(self, name=None, width=None, height=None):
         pb = None
-        facePath = self.getUserFacePath(name)
-        if facePath is None:
-            defaultTheme = Gtk.IconTheme.get_default()
-            iconInfo = Gtk.IconTheme.lookup_icon(defaultTheme, "user-identity", 64, Gtk.IconLookupFlags.NO_SVG)
-            if iconInfo is not None:
-                facePath = iconInfo.get_filename()
-        if facePath is not None:
-            pb = GdkPixbuf.Pixbuf.new_from_file(facePath)
-            if width is not None and height is not None:
-                pb.scale_simple(width, height, GdkPixbuf.InterpType.BILINEAR)
-            elif width is not None:
-                height = pb.get_height() * (width / pb.get_width())
-                pb.scale_simple(width, height, GdkPixbuf.InterpType.BILINEAR)
-            elif height is not None:
-                width = pb.get_width() * (height / pb.get_height())
-                pb.scale_simple(width, height, GdkPixbuf.InterpType.BILINEAR)
-        return pb
+        if name is None:
+            name = pwd.getpwuid(os.getuid()).pw_name
+        if not self.isSystemUser(name):
+            facePath = self.getUserFacePath(name)
+            if facePath is None:
+                defaultTheme = Gtk.IconTheme.get_default()
+                iconInfo = Gtk.IconTheme.lookup_icon(defaultTheme, "user-identity", 64, Gtk.IconLookupFlags.NO_SVG)
+                if iconInfo is not None:
+                    facePath = iconInfo.get_filename()
+            if facePath is not None:
+                pb = GdkPixbuf.Pixbuf.new_from_file(facePath)
+                if width is not None and height is not None:
+                    pb.scale_simple(width, height, GdkPixbuf.InterpType.BILINEAR)
+                elif width is not None:
+                    height = pb.get_height() * (width / pb.get_width())
+                    pb.scale_simple(width, height, GdkPixbuf.InterpType.BILINEAR)
+                elif height is not None:
+                    width = pb.get_width() * (height / pb.get_height())
+                    pb.scale_simple(width, height, GdkPixbuf.InterpType.BILINEAR)
+            return pb
 
     def getUserPasswordInfoDict(self, name):
         return spwd.getspnam(name)
@@ -219,30 +241,39 @@ class User(object):
         return pwd.getpwdwnam(name).pw_uid
 
     def getNewUserID(self):
-        newID = 0
         pwds = pwd.getpwall()
-        for p in pwds:
-            if (p.pw_uid >= 500 and p.pw_uid <= 1500) and p.pw_uid > newID:
-                newID = p.pw_uid
-        return newID + 1
+        for new_id in range(self.first_uid, self.last_uid):
+            for p in pwds:
+                if p.pw_uid != new_id:
+                    return new_id
+        return 0
 
     def getGroupID(self, group):
         return grp.getgrnam(group).gr_gid
 
     def getNewGroupID(self):
-        newID = 0
         grps = grp.getgrall()
-        for g in grps:
-            if (g.gr_gid >= 1000 and g.gr_gid <= 1500) and g.gr_gid > newID:
-                newID = g.gr_gid
-        return newID + 1
+        for new_id in range(self.first_gid, self.last_gid):
+            for g in grps:
+                if g.gr_gid != new_id:
+                    return new_id
+        return 0
 
     def getShells(self):
+        shells_path = '/etc/shells'
         shells = []
-        availableShells = ['/bin/bash', '/bin/sh', '/bin/ksh', '/bin/dash', '/bin/rbash', '/bin/ksh93', '/usr/bin/ksh']
-        for shell in availableShells:
-            if exists(shell):
-                shells.append(shell)
+        if exists(shells_path):
+            with open(shells_path, 'r') as f:
+                lines = f.readlines()
+            for line in lines:
+                line = line.strip()
+                if exists(line):
+                    shells.append(line)
+        if not shells:
+            for shell in ['/bin/bash', '/bin/sh', '/bin/ksh', '/bin/dash',
+                          '/bin/rbash', '/bin/ksh93', '/usr/bin/ksh']:
+                if exists(shell):
+                    shells.append(shell)
         return shells
 
     def createGroup(self, group):

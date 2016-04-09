@@ -47,8 +47,11 @@ class UserManager(object):
         self.tvUsersMain = go('tvUsersMain')
         self.tvUserGroupsMain = go('tvUserGroupsMain')
         self.chkShowSystemUsers = go('chkShowSystemUsers')
+        self.btnUserEdit = go('btnUserEdit')
+        self.btnUserRemove = go('btnUserRemove')
         # User window objects
         self.windowUser = go('usermanagerUserWindow')
+        self.nbUser = go('nbUser')
         self.txtLoginName = go('txtLoginName')
         self.txtRealName = go('txtRealName')
         self.txtUserID = go('txtUserID')
@@ -87,6 +90,9 @@ class UserManager(object):
         # Main window translations
         self.window.set_title(_("User manager"))
         self.chkShowSystemUsers.set_label(_("Show system users"))
+        self.btnUserEdit.set_label(_("Edit"))
+        self.btnUserRemove.set_label(_("Remove"))
+        go('btnUserAdd').set_label(_("Add"))
         go('lblUsersTab').set_text(_("Users"))
         go('lblGroupsTab').set_text(_("Groups"))
         go('lblUsersMain').set_text(go('lblUsersTab').get_text())
@@ -123,12 +129,18 @@ class UserManager(object):
         go('lblDays2').set_text(go('lblDays1').get_text())
         go('lblDays3').set_text(go('lblDays1').get_text())
         go('lblDays4').set_text(go('lblDays1').get_text())
+        go('btnSaveUser').set_label(_("Save"))
+        go('btnCancelUser').set_label(_("Cancel"))
         # Group window translations
         self.windowGroup.set_title(_("Group settings"))
         go('lblGroupName').set_text(_("Group name"))
         go('lblGroupID').set_text(_("Group ID"))
         go('lblAccounts').set_text(_("Available accounts"))
         go('lblSelectedAccounts').set_text(_("Selected accounts"))
+        go('btnOkGroup').set_label(go('btnSaveUser').get_label())
+        go('btnCancelGroup').set_label(go('btnCancelUser').get_label())
+        go('btnAddAccount').set_label(go('btnUserAdd').get_label())
+        go('btnRemoveAccount').set_label(self.btnUserRemove.get_label())
 
         # Init
         self.ec = ExecCmd()
@@ -203,7 +215,7 @@ class UserManager(object):
     def on_btnUserAdd_clicked(self, widget):
         self.imgFace.set_from_pixbuf(self.usr.getUserFacePixbuf())
         self.tvHandlerUserGroups.fillTreeview(contentList=self.getUserGroupsComplete(), columnTypesList=['bool', 'str'])
-        self.cmbShells.set_active(0)
+        self.cmbHandlerShells.selectValue('/bin/bash')
         self.cmbHandlerPrimaryGroup.fillComboBox(self.groups)
         self.txtLoginName.set_editable(True)
         self.txtLoginName.set_can_focus(True)
@@ -216,7 +228,16 @@ class UserManager(object):
 
     def on_btnUserEdit_clicked(self, widget):
         if self.selectedUser is not None:
-            self.imgFace.set_from_pixbuf(self.userFace)
+            if not self.userFace is None:
+                self.imgFace.set_from_pixbuf(self.userFace)
+                self.imgFace.show()
+                self.nbUser.get_nth_page(2).show()
+
+            else:
+                self.imgFace.hide()
+                # Hide passwords tab
+                self.nbUser.get_nth_page(2).hide()
+
             self.txtLoginName.set_editable(False)
             self.txtLoginName.set_can_focus(False)
             self.txtLoginName.set_text(self.user['user'].pw_name)
@@ -479,9 +500,9 @@ class UserManager(object):
                 isUg = False
                 if userGroups is not None:
                     for ug in userGroups:
-                       if ug == group:
-                           isUg = True
-                           break
+                        if ug == group:
+                            isUg = True
+                            break
                 ugc.append([isUg, group])
         return ugc
 

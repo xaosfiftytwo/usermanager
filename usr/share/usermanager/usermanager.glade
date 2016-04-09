@@ -226,6 +226,7 @@
                     <property name="can_focus">True</property>
                     <property name="receives_default">True</property>
                     <property name="use_stock">True</property>
+                    <property name="yalign">0.44999998807907104</property>
                     <property name="always_show_image">True</property>
                     <signal name="clicked" handler="on_btnGroupAdd_clicked" swapped="no"/>
                   </object>
@@ -750,6 +751,7 @@
                 </child>
                 <child>
                   <object class="GtkLabel" id="lblShell">
+                    <property name="visible">True</property>
                     <property name="can_focus">False</property>
                     <property name="xalign">0</property>
                     <property name="label" translatable="yes">Shell</property>
@@ -860,6 +862,7 @@
                 </child>
                 <child>
                   <object class="GtkComboBox" id="cmbShells">
+                    <property name="visible">True</property>
                     <property name="can_focus">False</property>
                     <property name="margin_left">5</property>
                     <property name="margin_bottom">3</property>

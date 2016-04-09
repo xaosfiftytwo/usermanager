@@ -1,3 +1,11 @@
+usermanager (0.8.1) debian; urgency=low
+
+  * Get config from /etc/adduser.conf
+  * Set shell for users
+  * Do not show face for system users
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Sat, 09 Apr 2016 15:11:34 +0200
+
 usermanager (0.8.0) debian; urgency=low
 
   * Add show system users

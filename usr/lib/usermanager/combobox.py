@@ -23,40 +23,42 @@ class ComboBoxHandler(GObject.GObject):
         self.setValue("")
 
     def fillComboBox(self, dataList, select_value=None):
-        self.clearComboBox()
-        liststore = self.combobox.get_model()
-        if liststore is None:
-            liststore = Gtk.ListStore(str)
-            if self.combobox.get_has_entry():
-                entry = self.combobox.get_child()
-                entry.set_can_focus(True)
-            else:
-                cell = Gtk.CellRendererText()
-                self.combobox.pack_start(cell, True)
-                self.combobox.add_attribute(cell, "text", 0)
-        for data in dataList:
-            liststore.append([str(data)])
-        self.combobox.set_model(liststore)
-        if select_value is not None:
-            self.selectValue(select_value)
+        if dataList:
+            self.clearComboBox()
+            liststore = self.combobox.get_model()
+            if liststore is None:
+                liststore = Gtk.ListStore(str)
+                if self.combobox.get_has_entry():
+                    entry = self.combobox.get_child()
+                    entry.set_can_focus(True)
+                else:
+                    cell = Gtk.CellRendererText()
+                    self.combobox.pack_start(cell, True)
+                    self.combobox.add_attribute(cell, "text", 0)
+            for data in dataList:
+                liststore.append([str(data)])
+            self.combobox.set_model(liststore)
+            if select_value is not None:
+                self.selectValue(select_value)
 
     def selectValue(self, value, valueColNr=0):
         i = 0
         activeIndex = -1
         liststore = self.combobox.get_model()
-        for data in liststore:
-            if data[valueColNr] == value:
-                activeIndex = i
-                break
-            i += 1
-        if self.combobox.get_has_entry():
-            self.combobox.set_entry_text_column(valueColNr)
-            if activeIndex < 0:
-                self.setValue(value)
-        else:
-            if activeIndex < 0:
-                activeIndex = 0
-        self.combobox.set_active(activeIndex)
+        if liststore:
+            for data in liststore:
+                if data[valueColNr] == value:
+                    activeIndex = i
+                    break
+                i += 1
+            if self.combobox.get_has_entry():
+                self.combobox.set_entry_text_column(valueColNr)
+                if activeIndex < 0:
+                    self.setValue(value)
+            else:
+                if activeIndex < 0:
+                    activeIndex = 0
+            self.combobox.set_active(activeIndex)
 
     def setValue(self, value):
         if self.combobox.get_has_entry():

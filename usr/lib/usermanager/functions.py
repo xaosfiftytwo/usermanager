@@ -34,7 +34,21 @@ packageStatus = ['installed', 'notinstalled', 'uninstallable']
 ec = ExecCmd()
 cache = apt.Cache()
 
+
 # General ================================================
+
+def get_config_dict(file, key_value=re.compile(r'^\s*(\w+)\s*=\s*["\']?(.*?)["\']?\s*(#.*)?$')):
+    """Returns POSIX config file (key=value, no sections) as dict.
+    Assumptions: no multiline values, no value contains '#'. """
+    d = {}
+    with open(file) as f:
+        for line in f:
+            try:
+                key, value, _ = key_value.match(line).groups()
+            except AttributeError:
+                continue
+            d[key] = value
+    return d
 
 def locate(pattern, root=os.curdir, locateDirsOnly=False):
     ret = []
